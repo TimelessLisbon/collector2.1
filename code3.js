@@ -392,7 +392,7 @@ gdjs.Safeguard_95appCode.eventsList9(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16761132);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10319556);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.writeField("Hack", "Status", "", gdjs.VariablesContainer.badVariable);
@@ -402,6 +402,149 @@ if (isConditionTrue_0) {
 
 
 };gdjs.Safeguard_95appCode.eventsList12 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 104.5;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") < 105.5;
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(0);
+}
+{ //Subevents
+gdjs.Safeguard_95appCode.eventsList11(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 105.5;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
+}{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Pedro Alcantara Enigma", false);
+}}
+
+}
+
+
+};gdjs.Safeguard_95appCode.eventsList13 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16202540);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.firebaseTools.database.writeField("Hack", "Status", "", gdjs.VariablesContainer.badVariable);
+}}
+
+}
+
+
+};gdjs.Safeguard_95appCode.eventsList14 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 106;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") < 107;
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(0);
+}
+{ //Subevents
+gdjs.Safeguard_95appCode.eventsList13(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 107;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
+}{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Pedro Alcantara Enigma", false);
+}}
+
+}
+
+
+};gdjs.Safeguard_95appCode.eventsList15 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16761132);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.firebaseTools.database.writeField("Hack", "Status", "", gdjs.VariablesContainer.badVariable);
+}}
+
+}
+
+
+};gdjs.Safeguard_95appCode.eventsList16 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 109;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") < 110;
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(0);
+}
+{ //Subevents
+gdjs.Safeguard_95appCode.eventsList15(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 110;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
+}{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Pedro Alcantara Enigma", false);
+}}
+
+}
+
+
+};gdjs.Safeguard_95appCode.eventsList17 = function(runtimeScene) {
 
 {
 
@@ -1027,16 +1170,11 @@ gdjs.Safeguard_95appCode.eventsList10(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 106;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 0;
 if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") < 107;
-}
-if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(0);
-}
+
 { //Subevents
-gdjs.Safeguard_95appCode.eventsList11(runtimeScene);} //End of subevents
+gdjs.Safeguard_95appCode.eventsList12(runtimeScene);} //End of subevents
 }
 
 }
@@ -1047,12 +1185,27 @@ gdjs.Safeguard_95appCode.eventsList11(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 107;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 1;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
-}{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Pedro Alcantara Enigma", false);
-}}
+
+{ //Subevents
+gdjs.Safeguard_95appCode.eventsList14(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 2;
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.Safeguard_95appCode.eventsList16(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -1068,16 +1221,6 @@ if (isConditionTrue_0) {
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene2");
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Pedro Alcantara Enigma", false);
 }}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
 
 }
 
@@ -1164,7 +1307,7 @@ gdjs.Safeguard_95appCode.GDgmapsObjects2.length = 0;
 gdjs.Safeguard_95appCode.GDgmapsObjects3.length = 0;
 gdjs.Safeguard_95appCode.GDgmapsObjects4.length = 0;
 
-gdjs.Safeguard_95appCode.eventsList12(runtimeScene);
+gdjs.Safeguard_95appCode.eventsList17(runtimeScene);
 
 return;
 
