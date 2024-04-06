@@ -93,7 +93,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17754940);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17867988);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
@@ -110,7 +110,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32CamoesCode.userFunc0xb6caf8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32CamoesCode.userFunc0xcfe348 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -134,7 +134,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32CamoesCode.userFunc0xb6cb68 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32CamoesCode.userFunc0xcfe3b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -166,7 +166,7 @@ gdjs.Percurso_32CamoesCode.eventsList2 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17773116);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17886164);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "notification-140376.mp3", false, 100, 1);
@@ -182,7 +182,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17774852);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17887900);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -220,7 +220,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32CamoesCode.GDyesO
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17777212);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17890260);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -273,7 +273,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17783252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17896300);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
@@ -650,7 +650,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32CamoesCode.GDyesO
 {
 
 
-gdjs.Percurso_32CamoesCode.userFunc0xb6caf8(runtimeScene);
+gdjs.Percurso_32CamoesCode.userFunc0xcfe348(runtimeScene);
 
 }
 
@@ -658,7 +658,7 @@ gdjs.Percurso_32CamoesCode.userFunc0xb6caf8(runtimeScene);
 {
 
 
-gdjs.Percurso_32CamoesCode.userFunc0xb6cb68(runtimeScene);
+gdjs.Percurso_32CamoesCode.userFunc0xcfe3b8(runtimeScene);
 
 }
 

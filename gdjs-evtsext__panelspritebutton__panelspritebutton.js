@@ -4,7 +4,7 @@ gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton = gdjs.evtsExt__PanelSpriteBu
 /**
  * Object generated from Button (panel sprite)
  */
-gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton = class PanelSpriteButton extends gdjs.CustomRuntimeObject {
+gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton = class PanelSpriteButton extends gdjs.CustomRuntimeObject2D {
   constructor(parentInstanceContainer, objectData) {
     super(parentInstanceContainer, objectData);
     this._parentInstanceContainer = parentInstanceContainer;
@@ -18,6 +18,7 @@ gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton = class Pan
     this._objectData.TopPadding = objectData.content.TopPadding !== undefined ? objectData.content.TopPadding : Number("0") || 0;
     this._objectData.BottomPadding = objectData.content.BottomPadding !== undefined ? objectData.content.BottomPadding : Number("0") || 0;
     this._objectData.HoveredFadeOutDuration = objectData.content.HoveredFadeOutDuration !== undefined ? objectData.content.HoveredFadeOutDuration : Number("0.25") || 0;
+    
 
     // It calls the onCreated super implementation at the end.
     this.onCreated();
@@ -81,6 +82,10 @@ gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton = class Pan
   _setHoveredFadeOutDuration(newValue) {
     this._objectData.HoveredFadeOutDuration = newValue;
   }
+
+  
+
+  
 }
 
 // Methods:
@@ -496,7 +501,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.Pa
 gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(16450228);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(16607388);
 }
 }
 if (isConditionTrue_0) {
@@ -564,7 +569,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.Pa
 gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(16453404);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(16610564);
 }
 }
 if (isConditionTrue_0) {
@@ -612,7 +617,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.Pa
 gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(16455156);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(16612316);
 }
 }
 if (isConditionTrue_0) {
@@ -654,7 +659,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.Pa
 gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(16456196);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(16613356);
 }
 }
 if (isConditionTrue_0) {
