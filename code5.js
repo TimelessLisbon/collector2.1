@@ -322,7 +322,7 @@ gdjs.copyArray(runtimeScene.getObjects("videobanner"), gdjs.S_46_32Pedro_32Alcan
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 2;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 3;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Video_ES"), gdjs.S_46_32Pedro_32Alcantara_32FimCode.GDVideo_9595ESObjects1);
 gdjs.copyArray(runtimeScene.getObjects("videobanner"), gdjs.S_46_32Pedro_32Alcantara_32FimCode.GDvideobannerObjects1);
