@@ -2,6 +2,9 @@ gdjs.FimCode = {};
 gdjs.FimCode.GDfundoObjects1= [];
 gdjs.FimCode.GDfundoObjects2= [];
 gdjs.FimCode.GDfundoObjects3= [];
+gdjs.FimCode.GDconfettiObjects1= [];
+gdjs.FimCode.GDconfettiObjects2= [];
+gdjs.FimCode.GDconfettiObjects3= [];
 gdjs.FimCode.GDscoreObjects1= [];
 gdjs.FimCode.GDscoreObjects2= [];
 gdjs.FimCode.GDscoreObjects3= [];
@@ -62,7 +65,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17799220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17868076);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
@@ -78,7 +81,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17790860);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17859716);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
@@ -97,7 +100,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17794684);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17863540);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(120 - (((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("hour_finish")) - gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5))) * 60) + gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("min_finish")) - gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6))));
@@ -116,7 +119,7 @@ gdjs.FimCode.eventsList0(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17803236);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17872092);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "PT_Presente.MP3", 2, true, 100, 1);
@@ -132,7 +135,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17804268);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17873124);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "gift_EN.MP3", 2, true, 100, 1);
@@ -148,7 +151,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17805324);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17874180);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "FR_Presente.AAC", 1, true, 100, 1);
@@ -164,7 +167,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17806372);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17875228);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "ES_Presente.AAC", 1, true, 100, 1);
@@ -242,10 +245,10 @@ gdjs.FimCode.eventsList5(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17797356);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14055428);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "tada-fanfare-a-6313.mp3", false, 100, 1);
 }}
 
 }
@@ -258,10 +261,10 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17793436);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16393356);
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(1).add(20);
+{gdjs.evtTools.sound.playSound(runtimeScene, "fairy-dust-shimmer-1-175611.mp3", false, 100, 1);
 }}
 
 }
@@ -274,11 +277,27 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17862124);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(1).add(20);
+}}
+
+}
+
+
+};gdjs.FimCode.eventsList10 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("lusiadas_win")) == "encontrado";
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.FimCode.eventsList8(runtimeScene);} //End of subevents
+gdjs.FimCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 }
@@ -326,7 +345,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17792556);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17839732);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
@@ -339,7 +358,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.FimCode.eventsList10 = function(runtimeScene) {
+};gdjs.FimCode.eventsList11 = function(runtimeScene) {
 
 {
 
@@ -355,9 +374,14 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("confetti"), gdjs.FimCode.GDconfettiObjects1);
 {runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(28);
+}{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "confetti");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "scene_start");
+}{for(var i = 0, len = gdjs.FimCode.GDconfettiObjects1.length ;i < len;++i) {
+    gdjs.FimCode.GDconfettiObjects1[i].hide();
+}
 }
 { //Subevents
 gdjs.FimCode.eventsList1(runtimeScene);} //End of subevents
@@ -507,11 +531,32 @@ if(isConditionTrue_1) {
 }
 }
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("confetti"), gdjs.FimCode.GDconfettiObjects1);
 {gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "next scene");
+}{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "confetti");
+}{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
 }{runtimeScene.getScene().getVariables().get("next").setString("");
+}{for(var i = 0, len = gdjs.FimCode.GDconfettiObjects1.length ;i < len;++i) {
+    gdjs.FimCode.GDconfettiObjects1[i].hide(false);
+}
 }
 { //Subevents
 gdjs.FimCode.eventsList7(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "confetti") >= 2;
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.FimCode.eventsList8(runtimeScene);} //End of subevents
 }
 
 }
@@ -529,12 +574,18 @@ gdjs.FimCode.eventsList7(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 0.3;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 8;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
+gdjs.copyArray(runtimeScene.getObjects("confetti"), gdjs.FimCode.GDconfettiObjects1);
+{for(var i = 0, len = gdjs.FimCode.GDconfettiObjects1.length ;i < len;++i) {
+    gdjs.FimCode.GDconfettiObjects1[i].getBehavior("Animation").pauseAnimation();
+}
+}{for(var i = 0, len = gdjs.FimCode.GDconfettiObjects1.length ;i < len;++i) {
+    gdjs.FimCode.GDconfettiObjects1[i].hide();
+}
 }
 { //Subevents
-gdjs.FimCode.eventsList9(runtimeScene);} //End of subevents
+gdjs.FimCode.eventsList10(runtimeScene);} //End of subevents
 }
 
 }
@@ -558,6 +609,9 @@ runtimeScene.getOnceTriggers().startNewFrame();
 gdjs.FimCode.GDfundoObjects1.length = 0;
 gdjs.FimCode.GDfundoObjects2.length = 0;
 gdjs.FimCode.GDfundoObjects3.length = 0;
+gdjs.FimCode.GDconfettiObjects1.length = 0;
+gdjs.FimCode.GDconfettiObjects2.length = 0;
+gdjs.FimCode.GDconfettiObjects3.length = 0;
 gdjs.FimCode.GDscoreObjects1.length = 0;
 gdjs.FimCode.GDscoreObjects2.length = 0;
 gdjs.FimCode.GDscoreObjects3.length = 0;
@@ -586,7 +640,7 @@ gdjs.FimCode.GDgmapsObjects1.length = 0;
 gdjs.FimCode.GDgmapsObjects2.length = 0;
 gdjs.FimCode.GDgmapsObjects3.length = 0;
 
-gdjs.FimCode.eventsList10(runtimeScene);
+gdjs.FimCode.eventsList11(runtimeScene);
 
 return;
 
