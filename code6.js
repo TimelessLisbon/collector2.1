@@ -93,7 +93,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9208748);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18265092);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
@@ -110,7 +110,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32S_46_32RoqueCode.userFunc0x993758 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32S_46_32RoqueCode.userFunc0x80fdf0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -134,7 +134,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32S_46_32RoqueCode.userFunc0x10bb958 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32S_46_32RoqueCode.userFunc0x80f748 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -166,7 +166,7 @@ gdjs.Percurso_32S_46_32RoqueCode.eventsList2 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9230820);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18283292);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "notification-140376.mp3", false, 100, 1);
@@ -182,7 +182,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9233108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18285028);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -220,7 +220,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32S_46_32RoqueCode.
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9235876);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18287388);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -273,7 +273,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9246804);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18293428);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
@@ -650,7 +650,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32S_46_32RoqueCode.
 {
 
 
-gdjs.Percurso_32S_46_32RoqueCode.userFunc0x993758(runtimeScene);
+gdjs.Percurso_32S_46_32RoqueCode.userFunc0x80fdf0(runtimeScene);
 
 }
 
@@ -658,7 +658,7 @@ gdjs.Percurso_32S_46_32RoqueCode.userFunc0x993758(runtimeScene);
 {
 
 
-gdjs.Percurso_32S_46_32RoqueCode.userFunc0x10bb958(runtimeScene);
+gdjs.Percurso_32S_46_32RoqueCode.userFunc0x80f748(runtimeScene);
 
 }
 

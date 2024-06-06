@@ -134,7 +134,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17165260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16620852);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 0, 1);
@@ -150,7 +150,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17167092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16609924);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
@@ -165,7 +165,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Safeguard_95appCode.asyncCallback17164668 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Safeguard_95appCode.asyncCallback16627428 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("story"), gdjs.Safeguard_95appCode.GDstoryObjects2);
 
 {for(var i = 0, len = gdjs.Safeguard_95appCode.GDstoryObjects2.length ;i < len;++i) {
@@ -184,7 +184,7 @@ gdjs.Safeguard_95appCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Safeguard_95appCode.GDstoryObjects1) asyncObjectsList.addObject("story", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Safeguard_95appCode.asyncCallback17164668(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Safeguard_95appCode.asyncCallback16627428(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -198,7 +198,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18476508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17897084);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -207,7 +207,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Safeguard_95appCode.asyncCallback18484132 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Safeguard_95appCode.asyncCallback17904708 = function (runtimeScene, asyncObjectsList) {
 {gdjs.deviceVibration.stopVibration();
 }}
 gdjs.Safeguard_95appCode.eventsList4 = function(runtimeScene) {
@@ -218,7 +218,7 @@ gdjs.Safeguard_95appCode.eventsList4 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7.2), (runtimeScene) => (gdjs.Safeguard_95appCode.asyncCallback18484132(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7.2), (runtimeScene) => (gdjs.Safeguard_95appCode.asyncCallback17904708(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -232,7 +232,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7.2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18482884);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17903460);
 }
 if (isConditionTrue_0) {
 {gdjs.deviceVibration.startVibrationPattern("3000,400,1000,400,1000,400,1000");
@@ -244,7 +244,7 @@ gdjs.Safeguard_95appCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Safeguard_95appCode.asyncCallback18486340 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Safeguard_95appCode.asyncCallback17906916 = function (runtimeScene, asyncObjectsList) {
 {gdjs.deviceVibration.stopVibration();
 }}
 gdjs.Safeguard_95appCode.eventsList6 = function(runtimeScene) {
@@ -255,7 +255,7 @@ gdjs.Safeguard_95appCode.eventsList6 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7.2), (runtimeScene) => (gdjs.Safeguard_95appCode.asyncCallback18486340(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7.2), (runtimeScene) => (gdjs.Safeguard_95appCode.asyncCallback17906916(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -269,7 +269,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7.2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18485092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17905668);
 }
 if (isConditionTrue_0) {
 {gdjs.deviceVibration.startVibrationPattern("3000,400,1000,400,1000,400,1000");
@@ -281,7 +281,7 @@ gdjs.Safeguard_95appCode.eventsList6(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Safeguard_95appCode.asyncCallback18488572 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Safeguard_95appCode.asyncCallback17909148 = function (runtimeScene, asyncObjectsList) {
 {gdjs.deviceVibration.stopVibration();
 }}
 gdjs.Safeguard_95appCode.eventsList8 = function(runtimeScene) {
@@ -292,7 +292,7 @@ gdjs.Safeguard_95appCode.eventsList8 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7.2), (runtimeScene) => (gdjs.Safeguard_95appCode.asyncCallback18488572(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7.2), (runtimeScene) => (gdjs.Safeguard_95appCode.asyncCallback17909148(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -306,7 +306,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7.2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18487324);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17907900);
 }
 if (isConditionTrue_0) {
 {gdjs.deviceVibration.startVibrationPattern("3000,400,1000,400,1000,400,1000");
@@ -318,7 +318,7 @@ gdjs.Safeguard_95appCode.eventsList8(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Safeguard_95appCode.asyncCallback18490796 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Safeguard_95appCode.asyncCallback17911372 = function (runtimeScene, asyncObjectsList) {
 {gdjs.deviceVibration.stopVibration();
 }}
 gdjs.Safeguard_95appCode.eventsList10 = function(runtimeScene) {
@@ -329,7 +329,7 @@ gdjs.Safeguard_95appCode.eventsList10 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7.2), (runtimeScene) => (gdjs.Safeguard_95appCode.asyncCallback18490796(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7.2), (runtimeScene) => (gdjs.Safeguard_95appCode.asyncCallback17911372(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -343,7 +343,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7.2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18489548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17910124);
 }
 if (isConditionTrue_0) {
 {gdjs.deviceVibration.startVibrationPattern("3000,400,1000,400,1000,400,1000");
@@ -456,7 +456,7 @@ gdjs.Safeguard_95appCode.eventsList11(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18473044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17914020);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.writeField("Hack", "Status", "", gdjs.VariablesContainer.badVariable);
@@ -509,7 +509,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18473796);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17917308);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.writeField("Hack", "Status", "", gdjs.VariablesContainer.badVariable);
@@ -562,7 +562,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17195284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17920508);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.writeField("Hack", "Status", "", gdjs.VariablesContainer.badVariable);
