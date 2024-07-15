@@ -1,4 +1,5 @@
 gdjs.LogoutCode = {};
+gdjs.LogoutCode.localVariables = [];
 gdjs.LogoutCode.GDfundoObjects1= [];
 gdjs.LogoutCode.GDfundoObjects2= [];
 gdjs.LogoutCode.GDscoreObjects1= [];

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Geolocation__PermissionStatus !== "undefined") {
 gdjs.evtsExt__Geolocation__PermissionStatus = {};
 
 
-gdjs.evtsExt__Geolocation__PermissionStatus.userFunc0xf93cf0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Geolocation__PermissionStatus.userFunc0xc397d8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = gdjs.evtTools.geolocation.permission.state;
 
@@ -18,7 +18,7 @@ gdjs.evtsExt__Geolocation__PermissionStatus.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__Geolocation__PermissionStatus.userFunc0xf93cf0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Geolocation__PermissionStatus.userFunc0xc397d8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -33,6 +33,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Geolocation"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Geolocation"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

@@ -1,4 +1,5 @@
 gdjs.S_46_32Roque_32EntradaCode = {};
+gdjs.S_46_32Roque_32EntradaCode.localVariables = [];
 gdjs.S_46_32Roque_32EntradaCode.GDanswerObjects1_1final = [];
 
 gdjs.S_46_32Roque_32EntradaCode.GDokObjects1= [];
@@ -89,7 +90,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18354388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19329956);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
@@ -113,7 +114,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18367924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19343916);
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.S_46_32Roque_32EntradaCode.GDanswerObjects1 */
@@ -131,7 +132,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18369724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19345732);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -147,7 +148,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18371660);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19349628);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -176,7 +177,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18377356);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19351324);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
@@ -687,7 +688,7 @@ gdjs.copyArray(runtimeScene.getObjects("wrong"), gdjs.S_46_32Roque_32EntradaCode
     gdjs.S_46_32Roque_32EntradaCode.GDanswerObjects1[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.S_46_32Roque_32EntradaCode.GDanswerObjects1.length ;i < len;++i) {
-    gdjs.S_46_32Roque_32EntradaCode.GDanswerObjects1[i].setDisabled(false);
+    ;
 }
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "wrong");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "wrong");

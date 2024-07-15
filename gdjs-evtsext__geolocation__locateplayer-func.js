@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Geolocation__LocatePlayer !== "undefined") {
 gdjs.evtsExt__Geolocation__LocatePlayer = {};
 
 
-gdjs.evtsExt__Geolocation__LocatePlayer.userFunc0x1040438 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Geolocation__LocatePlayer.userFunc0xc397d8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 this.logger = (this.logger || new gdjs.Logger("Geolocation extension"))
 
@@ -31,7 +31,7 @@ gdjs.evtsExt__Geolocation__LocatePlayer.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__Geolocation__LocatePlayer.userFunc0x1040438(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Geolocation__LocatePlayer.userFunc0xc397d8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -46,6 +46,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Geolocation"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Geolocation"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

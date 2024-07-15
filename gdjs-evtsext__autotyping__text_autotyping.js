@@ -34,6 +34,29 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping = class Text_AutoTypin
     return true;
   }
 
+  // Network sync:
+  getNetworkSyncData() {
+    return {
+      ...super.getNetworkSyncData(),
+      props: {
+        
+    Interval: this._behaviorData.Interval,
+    CharacterJustAdded: this._behaviorData.CharacterJustAdded,
+    CurrentCharacter: this._behaviorData.CurrentCharacter,
+      }
+    };
+  }
+  updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
+    
+    if (networkSyncData.props.Interval !== undefined)
+      this._behaviorData.Interval = networkSyncData.props.Interval;
+    if (networkSyncData.props.CharacterJustAdded !== undefined)
+      this._behaviorData.CharacterJustAdded = networkSyncData.props.CharacterJustAdded;
+    if (networkSyncData.props.CurrentCharacter !== undefined)
+      this._behaviorData.CurrentCharacter = networkSyncData.props.CurrentCharacter;
+  }
+
   // Properties:
   
   _getInterval() {
@@ -136,6 +159,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AutoTyping"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AutoTyping"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -365,6 +391,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AutoTyping"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AutoTyping"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -461,6 +490,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AutoTyping"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AutoTyping"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -556,6 +588,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AutoTyping"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AutoTyping"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -651,6 +686,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AutoTyping"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AutoTyping"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -740,6 +778,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AutoTyping"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AutoTyping"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -829,6 +870,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AutoTyping"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AutoTyping"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -918,6 +962,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AutoTyping"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AutoTyping"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1007,6 +1054,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AutoTyping"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AutoTyping"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1112,6 +1162,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AutoTyping"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AutoTyping"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1173,7 +1226,7 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeInterv
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(17101692);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(9541196);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.GDObjectObjects1);
@@ -1204,6 +1257,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AutoTyping"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AutoTyping"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1291,6 +1347,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AutoTyping"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AutoTyping"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1377,6 +1436,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AutoTyping"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AutoTyping"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

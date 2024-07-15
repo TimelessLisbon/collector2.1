@@ -1,4 +1,5 @@
 gdjs.LoginCode = {};
+gdjs.LoginCode.localVariables = [];
 gdjs.LoginCode.GDcodeObjects1= [];
 gdjs.LoginCode.GDcodeObjects2= [];
 gdjs.LoginCode.GDcodeObjects3= [];
@@ -59,7 +60,7 @@ gdjs.LoginCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16539252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9970524);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 0, 1);
@@ -78,7 +79,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16553244);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9984788);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.auth.anonymSignIn(runtimeScene.getScene().getVariables().get("error"));
@@ -94,7 +95,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16569124);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10000980);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -122,7 +123,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16571068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10002884);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.getField("Timer", "Hour", runtimeScene.getScene().getVariables().get("hour"), runtimeScene.getScene().getVariables().get("error"));
@@ -323,7 +324,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16592180);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10024484);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -339,7 +340,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16595308);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10027780);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -405,10 +406,10 @@ gdjs.copyArray(gdjs.LoginCode.GDokObjects1, gdjs.LoginCode.GDokObjects2);
 
 {runtimeScene.getScene().getVariables().get("equipa").setString("");
 }{for(var i = 0, len = gdjs.LoginCode.GDcodeObjects2.length ;i < len;++i) {
-    gdjs.LoginCode.GDcodeObjects2[i].setDisabled(true);
+    ;
 }
 }{for(var i = 0, len = gdjs.LoginCode.GDnameObjects2.length ;i < len;++i) {
-    gdjs.LoginCode.GDnameObjects2[i].setDisabled(true);
+    ;
 }
 }{for(var i = 0, len = gdjs.LoginCode.GDcodeObjects2.length ;i < len;++i) {
     gdjs.LoginCode.GDcodeObjects2[i].hide();
@@ -433,7 +434,7 @@ gdjs.copyArray(gdjs.LoginCode.GDokObjects1, gdjs.LoginCode.GDokObjects2);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16601388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10033820);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -1140,10 +1141,10 @@ gdjs.copyArray(runtimeScene.getObjects("ok"), gdjs.LoginCode.GDokObjects1);
 gdjs.copyArray(runtimeScene.getObjects("wrong"), gdjs.LoginCode.GDwrongObjects1);
 {runtimeScene.getScene().getVariables().get("equipa").setString("");
 }{for(var i = 0, len = gdjs.LoginCode.GDcodeObjects1.length ;i < len;++i) {
-    gdjs.LoginCode.GDcodeObjects1[i].setDisabled(true);
+    ;
 }
 }{for(var i = 0, len = gdjs.LoginCode.GDnameObjects1.length ;i < len;++i) {
-    gdjs.LoginCode.GDnameObjects1[i].setDisabled(true);
+    ;
 }
 }{for(var i = 0, len = gdjs.LoginCode.GDcodeObjects1.length ;i < len;++i) {
     gdjs.LoginCode.GDcodeObjects1[i].hide();
@@ -1206,10 +1207,10 @@ gdjs.copyArray(runtimeScene.getObjects("name"), gdjs.LoginCode.GDnameObjects1);
 /* Reuse gdjs.LoginCode.GDokObjects1 */
 {runtimeScene.getScene().getVariables().get("equipa").setString("");
 }{for(var i = 0, len = gdjs.LoginCode.GDcodeObjects1.length ;i < len;++i) {
-    gdjs.LoginCode.GDcodeObjects1[i].setDisabled(true);
+    ;
 }
 }{for(var i = 0, len = gdjs.LoginCode.GDnameObjects1.length ;i < len;++i) {
-    gdjs.LoginCode.GDnameObjects1[i].setDisabled(true);
+    ;
 }
 }{for(var i = 0, len = gdjs.LoginCode.GDcodeObjects1.length ;i < len;++i) {
     gdjs.LoginCode.GDcodeObjects1[i].hide();
@@ -1301,10 +1302,10 @@ gdjs.copyArray(runtimeScene.getObjects("wrong"), gdjs.LoginCode.GDwrongObjects1)
     gdjs.LoginCode.GDokObjects1[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.LoginCode.GDcodeObjects1.length ;i < len;++i) {
-    gdjs.LoginCode.GDcodeObjects1[i].setDisabled(false);
+    ;
 }
 }{for(var i = 0, len = gdjs.LoginCode.GDnameObjects1.length ;i < len;++i) {
-    gdjs.LoginCode.GDnameObjects1[i].setDisabled(false);
+    ;
 }
 }{for(var i = 0, len = gdjs.LoginCode.GDwrongObjects1.length ;i < len;++i) {
     gdjs.LoginCode.GDwrongObjects1[i].hide();
