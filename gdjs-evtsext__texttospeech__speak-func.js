@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__TextToSpeech__Speak !== "undefined") {
 gdjs.evtsExt__TextToSpeech__Speak = {};
 
 
-gdjs.evtsExt__TextToSpeech__Speak.userFunc0x10d0b00 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__TextToSpeech__Speak.userFunc0x97dd48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) return;
 
@@ -60,7 +60,7 @@ gdjs.evtsExt__TextToSpeech__Speak.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__TextToSpeech__Speak.userFunc0x10d0b00(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__TextToSpeech__Speak.userFunc0x97dd48(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -75,6 +75,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("TextToSpeech"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("TextToSpeech"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

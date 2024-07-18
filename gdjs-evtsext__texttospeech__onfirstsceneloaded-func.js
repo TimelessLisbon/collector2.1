@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__TextToSpeech__onFirstSceneLoaded !== "undefined") {
 gdjs.evtsExt__TextToSpeech__onFirstSceneLoaded = {};
 
 
-gdjs.evtsExt__TextToSpeech__onFirstSceneLoaded.userFunc0x10d0b00 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__TextToSpeech__onFirstSceneLoaded.userFunc0xcc8108 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // When calling getVoices, browsers return an empty list
 // while gathering the real list of available voices.
@@ -30,7 +30,7 @@ gdjs.evtsExt__TextToSpeech__onFirstSceneLoaded.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__TextToSpeech__onFirstSceneLoaded.userFunc0x10d0b00(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__TextToSpeech__onFirstSceneLoaded.userFunc0xcc8108(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -45,6 +45,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("TextToSpeech"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("TextToSpeech"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
