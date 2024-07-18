@@ -90,7 +90,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14279788);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19464692);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
@@ -107,72 +107,6 @@ if (isConditionTrue_0) {
 
 
 };gdjs.Carmo_32EscadasCode.eventsList2 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 0;
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("prox_local"), gdjs.Carmo_32EscadasCode.GDprox_9595localObjects2);
-{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDprox_9595localObjects2.length ;i < len;++i) {
-    gdjs.Carmo_32EscadasCode.GDprox_9595localObjects2[i].SetLabelText("Prox. local", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 1;
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("prox_local"), gdjs.Carmo_32EscadasCode.GDprox_9595localObjects2);
-{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDprox_9595localObjects2.length ;i < len;++i) {
-    gdjs.Carmo_32EscadasCode.GDprox_9595localObjects2[i].SetLabelText("Next Place", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 2;
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("prox_local"), gdjs.Carmo_32EscadasCode.GDprox_9595localObjects2);
-{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDprox_9595localObjects2.length ;i < len;++i) {
-    gdjs.Carmo_32EscadasCode.GDprox_9595localObjects2[i].SetLabelText("Suivant", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 3;
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("prox_local"), gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1);
-{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1.length ;i < len;++i) {
-    gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1[i].SetLabelText("Siguiente", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}}
-
-}
-
-
-};gdjs.Carmo_32EscadasCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -222,6 +156,22 @@ gdjs.copyArray(runtimeScene.getObjects("fundo"), gdjs.Carmo_32EscadasCode.GDfund
 }
 
 
+};gdjs.Carmo_32EscadasCode.eventsList3 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19483476);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
+}}
+
+}
+
+
 };gdjs.Carmo_32EscadasCode.eventsList4 = function(runtimeScene) {
 
 {
@@ -229,7 +179,7 @@ gdjs.copyArray(runtimeScene.getObjects("fundo"), gdjs.Carmo_32EscadasCode.GDfund
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13924516);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19485052);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -245,7 +195,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13949260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19487876);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -255,22 +205,6 @@ if (isConditionTrue_0) {
 
 
 };gdjs.Carmo_32EscadasCode.eventsList6 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13977756);
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
-}}
-
-}
-
-
-};gdjs.Carmo_32EscadasCode.eventsList7 = function(runtimeScene) {
 
 {
 
@@ -290,7 +224,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14020596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19489884);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
@@ -314,26 +248,7 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Carmo_32EscadasCode.G
 }
 
 
-};gdjs.Carmo_32EscadasCode.eventsList8 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 0.5;
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(1).add(2);
-}{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)), gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
-}
-{ //Subevents
-gdjs.Carmo_32EscadasCode.eventsList7(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.Carmo_32EscadasCode.eventsList9 = function(runtimeScene) {
+};gdjs.Carmo_32EscadasCode.eventsList7 = function(runtimeScene) {
 
 {
 
@@ -593,46 +508,19 @@ gdjs.copyArray(runtimeScene.getObjects("fundo"), gdjs.Carmo_32EscadasCode.GDfund
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("scene")) != "Belas Artes - Arrumar";
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.Carmo_32EscadasCode.eventsList2(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("scene")) == "Belas Artes - Arrumar";
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("prox_local"), gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1);
-{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1.length ;i < len;++i) {
-    gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1[i].SetLabelText("OK", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 0;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.Carmo_32EscadasCode.GDnoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("prox_local"), gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1);
 gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Carmo_32EscadasCode.GDyesObjects1);
 {for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDyesObjects1.length ;i < len;++i) {
     gdjs.Carmo_32EscadasCode.GDyesObjects1[i].SetLabelText("SIM", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDnoObjects1.length ;i < len;++i) {
     gdjs.Carmo_32EscadasCode.GDnoObjects1[i].SetLabelText("NÃO", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1.length ;i < len;++i) {
+    gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1[i].SetLabelText("Prox. local", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -647,12 +535,16 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 1;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.Carmo_32EscadasCode.GDnoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("prox_local"), gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1);
 gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Carmo_32EscadasCode.GDyesObjects1);
 {for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDyesObjects1.length ;i < len;++i) {
     gdjs.Carmo_32EscadasCode.GDyesObjects1[i].SetLabelText("YES", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDnoObjects1.length ;i < len;++i) {
     gdjs.Carmo_32EscadasCode.GDnoObjects1[i].SetLabelText("NO", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1.length ;i < len;++i) {
+    gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1[i].SetLabelText("Next Place", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -667,12 +559,16 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 2;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.Carmo_32EscadasCode.GDnoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("prox_local"), gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1);
 gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Carmo_32EscadasCode.GDyesObjects1);
 {for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDyesObjects1.length ;i < len;++i) {
     gdjs.Carmo_32EscadasCode.GDyesObjects1[i].SetLabelText("OUI", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDnoObjects1.length ;i < len;++i) {
     gdjs.Carmo_32EscadasCode.GDnoObjects1[i].SetLabelText("NON", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1.length ;i < len;++i) {
+    gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1[i].SetLabelText("Suivant", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -687,12 +583,16 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 3;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.Carmo_32EscadasCode.GDnoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("prox_local"), gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1);
 gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Carmo_32EscadasCode.GDyesObjects1);
 {for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDyesObjects1.length ;i < len;++i) {
     gdjs.Carmo_32EscadasCode.GDyesObjects1[i].SetLabelText("SI", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDnoObjects1.length ;i < len;++i) {
     gdjs.Carmo_32EscadasCode.GDnoObjects1[i].SetLabelText("NO", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1.length ;i < len;++i) {
+    gdjs.Carmo_32EscadasCode.GDprox_9595localObjects1[i].SetLabelText("Siguiente", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -731,7 +631,7 @@ if(isConditionTrue_1) {
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.Carmo_32EscadasCode.eventsList3(runtimeScene);} //End of subevents
+gdjs.Carmo_32EscadasCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -773,7 +673,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Carmo_32EscadasCode.GDyesObj
 }
 }
 { //Subevents
-gdjs.Carmo_32EscadasCode.eventsList4(runtimeScene);} //End of subevents
+gdjs.Carmo_32EscadasCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 }
@@ -819,7 +719,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Carmo_32EscadasCode.GDyesObj
 }
 }
 { //Subevents
-gdjs.Carmo_32EscadasCode.eventsList5(runtimeScene);} //End of subevents
+gdjs.Carmo_32EscadasCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 }
@@ -890,7 +790,7 @@ if (isConditionTrue_0) {
 }{runtimeScene.getScene().getVariables().get("next").setString("");
 }
 { //Subevents
-gdjs.Carmo_32EscadasCode.eventsList6(runtimeScene);} //End of subevents
+gdjs.Carmo_32EscadasCode.eventsList5(runtimeScene);} //End of subevents
 }
 
 }
@@ -908,11 +808,13 @@ gdjs.Carmo_32EscadasCode.eventsList6(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(8)) == 0;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 0.5;
 if (isConditionTrue_0) {
-
+{runtimeScene.getGame().getVariables().getFromIndex(1).add(2);
+}{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)), gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
+}
 { //Subevents
-gdjs.Carmo_32EscadasCode.eventsList8(runtimeScene);} //End of subevents
+gdjs.Carmo_32EscadasCode.eventsList6(runtimeScene);} //End of subevents
 }
 
 }
@@ -963,7 +865,7 @@ gdjs.Carmo_32EscadasCode.GDgmapsObjects1.length = 0;
 gdjs.Carmo_32EscadasCode.GDgmapsObjects2.length = 0;
 gdjs.Carmo_32EscadasCode.GDgmapsObjects3.length = 0;
 
-gdjs.Carmo_32EscadasCode.eventsList9(runtimeScene);
+gdjs.Carmo_32EscadasCode.eventsList7(runtimeScene);
 
 return;
 

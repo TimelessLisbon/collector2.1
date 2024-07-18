@@ -1,119 +1,92 @@
-gdjs.LeaderboardCode = {};
-gdjs.LeaderboardCode.localVariables = [];
-gdjs.LeaderboardCode.GDscoreObjects1= [];
-gdjs.LeaderboardCode.GDscoreObjects2= [];
-gdjs.LeaderboardCode.GDnext_9595sceneObjects1= [];
-gdjs.LeaderboardCode.GDnext_9595sceneObjects2= [];
-gdjs.LeaderboardCode.GDURLObjects1= [];
-gdjs.LeaderboardCode.GDURLObjects2= [];
-gdjs.LeaderboardCode.GDfundopistagmObjects1= [];
-gdjs.LeaderboardCode.GDfundopistagmObjects2= [];
-gdjs.LeaderboardCode.GDpistagmObjects1= [];
-gdjs.LeaderboardCode.GDpistagmObjects2= [];
-gdjs.LeaderboardCode.GDdigitsObjects1= [];
-gdjs.LeaderboardCode.GDdigitsObjects2= [];
-gdjs.LeaderboardCode.GDlocal_9595erradoObjects1= [];
-gdjs.LeaderboardCode.GDlocal_9595erradoObjects2= [];
-gdjs.LeaderboardCode.GDtask_9595confirmationObjects1= [];
-gdjs.LeaderboardCode.GDtask_9595confirmationObjects2= [];
-gdjs.LeaderboardCode.GDgmapsObjects1= [];
-gdjs.LeaderboardCode.GDgmapsObjects2= [];
+gdjs.CoordenadasCode = {};
+gdjs.CoordenadasCode.localVariables = [];
+gdjs.CoordenadasCode.GDlatitudeObjects1= [];
+gdjs.CoordenadasCode.GDlatitudeObjects2= [];
+gdjs.CoordenadasCode.GDlongitudeObjects1= [];
+gdjs.CoordenadasCode.GDlongitudeObjects2= [];
+gdjs.CoordenadasCode.GDscoreObjects1= [];
+gdjs.CoordenadasCode.GDscoreObjects2= [];
+gdjs.CoordenadasCode.GDnext_9595sceneObjects1= [];
+gdjs.CoordenadasCode.GDnext_9595sceneObjects2= [];
+gdjs.CoordenadasCode.GDURLObjects1= [];
+gdjs.CoordenadasCode.GDURLObjects2= [];
+gdjs.CoordenadasCode.GDfundopistagmObjects1= [];
+gdjs.CoordenadasCode.GDfundopistagmObjects2= [];
+gdjs.CoordenadasCode.GDpistagmObjects1= [];
+gdjs.CoordenadasCode.GDpistagmObjects2= [];
+gdjs.CoordenadasCode.GDdigitsObjects1= [];
+gdjs.CoordenadasCode.GDdigitsObjects2= [];
+gdjs.CoordenadasCode.GDlocal_9595erradoObjects1= [];
+gdjs.CoordenadasCode.GDlocal_9595erradoObjects2= [];
+gdjs.CoordenadasCode.GDtask_9595confirmationObjects1= [];
+gdjs.CoordenadasCode.GDtask_9595confirmationObjects2= [];
+gdjs.CoordenadasCode.GDgmapsObjects1= [];
+gdjs.CoordenadasCode.GDgmapsObjects2= [];
 
 
-gdjs.LeaderboardCode.eventsList0 = function(runtimeScene) {
+gdjs.CoordenadasCode.userFunc0x7c8878 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var myVar = runtimeScene.getVariables().get("Longitude");
+function geoFindMe() {
+    function success(position) {
+        const latitude = position.coords.latitude;
+        const longitude = position.coords.longitude;
+
+        myVar.setNumber(`${longitude}`);
+    }
+
+    function error(error) {
+        myVar.setString("unable to retrieve your location" + error.code + error.message);
+    }
+
+    if (!navigator.geolocation) {
+        myVar.setString('Geolocation is not supported by your browser');
+    } else {
+        navigator.geolocation.getCurrentPosition(success, error);
+    }
+
+}
+geoFindMe();
+};
+gdjs.CoordenadasCode.userFunc0x88ccc0 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var myVar = runtimeScene.getVariables().get("Latitude");
+function geoFindMe() {
+    function success(position) {
+        const latitude = position.coords.latitude;
+        const longitude = position.coords.longitude;
+
+        myVar.setNumber(`${latitude}`);
+    }
+
+    function error(error) {
+        myVar.setString("unable to retrieve your location" + error.code + error.message);
+    }
+
+    if (!navigator.geolocation) {
+        myVar.setString('Geolocation is not supported by your browser');
+    } else {
+        navigator.geolocation.getCurrentPosition(success, error);
+    }
+
+}
+geoFindMe();
+};
+gdjs.CoordenadasCode.eventsList0 = function(runtimeScene) {
 
 {
 
 
 let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{let isConditionTrue_1 = false;
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_amarela"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_azul"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_castanha"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_rosa"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_roxa"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_verde"));
-}
-}
-}
-}
-}
-isConditionTrue_0 = isConditionTrue_1;
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Logout", false);
-}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "UID");
-}}
-
-}
-
-
-};gdjs.LeaderboardCode.eventsList1 = function(runtimeScene) {
-
 {
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Safeguard_app_restored", false);
-}}
-
+gdjs.copyArray(runtimeScene.getObjects("latitude"), gdjs.CoordenadasCode.GDlatitudeObjects1);
+gdjs.copyArray(runtimeScene.getObjects("longitude"), gdjs.CoordenadasCode.GDlongitudeObjects1);
+{for(var i = 0, len = gdjs.CoordenadasCode.GDlatitudeObjects1.length ;i < len;++i) {
+    gdjs.CoordenadasCode.GDlatitudeObjects1[i].setX((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.CoordenadasCode.GDlatitudeObjects1[i].getWidth())) / 2);
 }
-
-
-};gdjs.LeaderboardCode.eventsList2 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14025772);
+}{for(var i = 0, len = gdjs.CoordenadasCode.GDlongitudeObjects1.length ;i < len;++i) {
+    gdjs.CoordenadasCode.GDlongitudeObjects1[i].setX((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.CoordenadasCode.GDlongitudeObjects1[i].getWidth())) / 2);
 }
-if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Answer", "", runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Clues", "", runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "", runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().get("error"));
-}
-{ //Subevents
-gdjs.LeaderboardCode.eventsList1(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.LeaderboardCode.eventsList3 = function(runtimeScene) {
-
-{
-
-
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "UID");
-}{gdjs.evtsExt__Geolocation__LocatePlayer.func(runtimeScene, runtimeScene.getScene().getVariables().get("GPS"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
@@ -122,133 +95,76 @@ if (isConditionTrue_0) {
 {
 
 
+
+}
+
+
+{
+
+
+gdjs.CoordenadasCode.userFunc0x7c8878(runtimeScene);
+
+}
+
+
+{
+
+
+gdjs.CoordenadasCode.userFunc0x88ccc0(runtimeScene);
+
+}
+
+
+{
+
+
 let isConditionTrue_0 = false;
 {
-{runtimeScene.getGame().getVariables().get("UID_atual").setString(gdjs.evtTools.firebaseTools.auth.userManagement.getUID());
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Amarela", runtimeScene.getScene().getVariables().get("UID_amarela"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Azul", runtimeScene.getScene().getVariables().get("UID_azul"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Castanha", runtimeScene.getScene().getVariables().get("UID_castanha"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Rosa", runtimeScene.getScene().getVariables().get("UID_rosa"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Roxa", runtimeScene.getScene().getVariables().get("UID_roxa"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Verde", runtimeScene.getScene().getVariables().get("UID_verde"), runtimeScene.getScene().getVariables().get("error"));
+gdjs.copyArray(runtimeScene.getObjects("latitude"), gdjs.CoordenadasCode.GDlatitudeObjects1);
+gdjs.copyArray(runtimeScene.getObjects("longitude"), gdjs.CoordenadasCode.GDlongitudeObjects1);
+{for(var i = 0, len = gdjs.CoordenadasCode.GDlatitudeObjects1.length ;i < len;++i) {
+    gdjs.CoordenadasCode.GDlatitudeObjects1[i].setString("LATITUDE: " + gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("Latitude")));
+}
+}{for(var i = 0, len = gdjs.CoordenadasCode.GDlongitudeObjects1.length ;i < len;++i) {
+    gdjs.CoordenadasCode.GDlongitudeObjects1[i].setString("LONGITUDE: " + gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("Longitude")));
+}
 }}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "UID") > 5;
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.LeaderboardCode.eventsList0(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{gdjs.evtTools.leaderboards.displayLeaderboard(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)), true);
-}{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(33);
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14357204);
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Team", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Progress", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2)), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("Timer", "Hour", runtimeScene.getScene().getVariables().get("hour"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("Timer", "Minute", runtimeScene.getScene().getVariables().get("minute"), runtimeScene.getScene().getVariables().get("error"));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 8;
-if (isConditionTrue_0) {
-{gdjs.evtTools.leaderboards.closeLeaderboardView(runtimeScene);
-}
-{ //Subevents
-gdjs.LeaderboardCode.eventsList2(runtimeScene);} //End of subevents
-}
 
 }
 
 
 };
 
-gdjs.LeaderboardCode.func = function(runtimeScene) {
+gdjs.CoordenadasCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.LeaderboardCode.GDscoreObjects1.length = 0;
-gdjs.LeaderboardCode.GDscoreObjects2.length = 0;
-gdjs.LeaderboardCode.GDnext_9595sceneObjects1.length = 0;
-gdjs.LeaderboardCode.GDnext_9595sceneObjects2.length = 0;
-gdjs.LeaderboardCode.GDURLObjects1.length = 0;
-gdjs.LeaderboardCode.GDURLObjects2.length = 0;
-gdjs.LeaderboardCode.GDfundopistagmObjects1.length = 0;
-gdjs.LeaderboardCode.GDfundopistagmObjects2.length = 0;
-gdjs.LeaderboardCode.GDpistagmObjects1.length = 0;
-gdjs.LeaderboardCode.GDpistagmObjects2.length = 0;
-gdjs.LeaderboardCode.GDdigitsObjects1.length = 0;
-gdjs.LeaderboardCode.GDdigitsObjects2.length = 0;
-gdjs.LeaderboardCode.GDlocal_9595erradoObjects1.length = 0;
-gdjs.LeaderboardCode.GDlocal_9595erradoObjects2.length = 0;
-gdjs.LeaderboardCode.GDtask_9595confirmationObjects1.length = 0;
-gdjs.LeaderboardCode.GDtask_9595confirmationObjects2.length = 0;
-gdjs.LeaderboardCode.GDgmapsObjects1.length = 0;
-gdjs.LeaderboardCode.GDgmapsObjects2.length = 0;
+gdjs.CoordenadasCode.GDlatitudeObjects1.length = 0;
+gdjs.CoordenadasCode.GDlatitudeObjects2.length = 0;
+gdjs.CoordenadasCode.GDlongitudeObjects1.length = 0;
+gdjs.CoordenadasCode.GDlongitudeObjects2.length = 0;
+gdjs.CoordenadasCode.GDscoreObjects1.length = 0;
+gdjs.CoordenadasCode.GDscoreObjects2.length = 0;
+gdjs.CoordenadasCode.GDnext_9595sceneObjects1.length = 0;
+gdjs.CoordenadasCode.GDnext_9595sceneObjects2.length = 0;
+gdjs.CoordenadasCode.GDURLObjects1.length = 0;
+gdjs.CoordenadasCode.GDURLObjects2.length = 0;
+gdjs.CoordenadasCode.GDfundopistagmObjects1.length = 0;
+gdjs.CoordenadasCode.GDfundopistagmObjects2.length = 0;
+gdjs.CoordenadasCode.GDpistagmObjects1.length = 0;
+gdjs.CoordenadasCode.GDpistagmObjects2.length = 0;
+gdjs.CoordenadasCode.GDdigitsObjects1.length = 0;
+gdjs.CoordenadasCode.GDdigitsObjects2.length = 0;
+gdjs.CoordenadasCode.GDlocal_9595erradoObjects1.length = 0;
+gdjs.CoordenadasCode.GDlocal_9595erradoObjects2.length = 0;
+gdjs.CoordenadasCode.GDtask_9595confirmationObjects1.length = 0;
+gdjs.CoordenadasCode.GDtask_9595confirmationObjects2.length = 0;
+gdjs.CoordenadasCode.GDgmapsObjects1.length = 0;
+gdjs.CoordenadasCode.GDgmapsObjects2.length = 0;
 
-gdjs.LeaderboardCode.eventsList3(runtimeScene);
+gdjs.CoordenadasCode.eventsList0(runtimeScene);
 
 return;
 
 }
 
-gdjs['LeaderboardCode'] = gdjs.LeaderboardCode;
+gdjs['CoordenadasCode'] = gdjs.CoordenadasCode;
