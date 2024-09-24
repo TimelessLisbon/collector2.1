@@ -275,7 +275,7 @@ gdjs.copyArray(runtimeScene.getObjects("URL"), gdjs.S_46_32Roque_32Entrada2Code.
 gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.S_46_32Roque_32Entrada2Code.GDnext_9595sceneObjects1);
 {runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(6);
 }{for(var i = 0, len = gdjs.S_46_32Roque_32Entrada2Code.GDnext_9595sceneObjects1.length ;i < len;++i) {
-    gdjs.S_46_32Roque_32Entrada2Code.GDnext_9595sceneObjects1[i].setString("S. Roque Cruzadas 1");
+    gdjs.S_46_32Roque_32Entrada2Code.GDnext_9595sceneObjects1[i].setString("Percurso Ginja");
 }
 }{runtimeScene.getScene().getVariables().get("latsup").setNumber(38.7136);
 }{runtimeScene.getScene().getVariables().get("latif").setNumber(38.7128);

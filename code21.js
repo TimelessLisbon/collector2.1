@@ -750,7 +750,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "TimeClue") >= 240;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().get("clue").add(1);
+{runtimeScene.getScene().getVariables().get("clue").add(2);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "clue");
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "TimeClue");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "TimeClue");
