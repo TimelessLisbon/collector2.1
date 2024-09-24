@@ -319,7 +319,7 @@ let isConditionTrue_0 = false;
 let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Carmo_32EscadasCode.GDnext_9595sceneObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(14);
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(15);
 }{for(var i = 0, len = gdjs.Carmo_32EscadasCode.GDnext_9595sceneObjects1.length ;i < len;++i) {
     gdjs.Carmo_32EscadasCode.GDnext_9595sceneObjects1[i].setString("Carmo Enigma");
 }

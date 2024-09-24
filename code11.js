@@ -747,7 +747,7 @@ let isConditionTrue_0 = false;
 let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.S_46_32Roque_32Cruzadas_322Code.GDnext_9595sceneObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(8);
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(9);
 }{for(var i = 0, len = gdjs.S_46_32Roque_32Cruzadas_322Code.GDnext_9595sceneObjects1.length ;i < len;++i) {
     gdjs.S_46_32Roque_32Cruzadas_322Code.GDnext_9595sceneObjects1[i].setString("S. Roque fim");
 }

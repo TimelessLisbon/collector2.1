@@ -319,7 +319,7 @@ let isConditionTrue_0 = false;
 let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Ginja_32FimCode.GDnext_9595sceneObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(12);
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(13);
 }{for(var i = 0, len = gdjs.Ginja_32FimCode.GDnext_9595sceneObjects1.length ;i < len;++i) {
     gdjs.Ginja_32FimCode.GDnext_9595sceneObjects1[i].setString("Percurso Carmo");
 }

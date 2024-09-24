@@ -311,7 +311,7 @@ gdjs.copyArray(runtimeScene.getObjects("video_banner"), gdjs.VideoCode.GDvideo_9
 }
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "scene_start");
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
-}{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(32);
+}{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(34);
 }{runtimeScene.getScene().getVariables().get("video").setNumber(0);
 }
 { //Subevents

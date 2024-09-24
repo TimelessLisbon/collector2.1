@@ -319,7 +319,7 @@ let isConditionTrue_0 = false;
 let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Camoes_32FimCode.GDnext_9595sceneObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(28);
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(30);
 }{for(var i = 0, len = gdjs.Camoes_32FimCode.GDnext_9595sceneObjects1.length ;i < len;++i) {
     gdjs.Camoes_32FimCode.GDnext_9595sceneObjects1[i].setString("Percurso S. Carlos");
 }

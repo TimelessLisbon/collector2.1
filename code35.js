@@ -111,7 +111,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32Belas_32ArtesCode.userFunc0x1202bc8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32Belas_32ArtesCode.userFunc0x97da08 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -135,7 +135,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32Belas_32ArtesCode.userFunc0x1202c20 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32Belas_32ArtesCode.userFunc0x97da78 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -369,7 +369,7 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("URL"), gdjs.Percurso_32Belas_32ArtesCode.GDURLObjects1);
 gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32Belas_32ArtesCode.GDnext_9595sceneObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(31);
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(33);
 }{for(var i = 0, len = gdjs.Percurso_32Belas_32ArtesCode.GDnext_9595sceneObjects1.length ;i < len;++i) {
     gdjs.Percurso_32Belas_32ArtesCode.GDnext_9595sceneObjects1[i].setString("Video");
 }
@@ -651,7 +651,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32Belas_32ArtesCode
 {
 
 
-gdjs.Percurso_32Belas_32ArtesCode.userFunc0x1202bc8(runtimeScene);
+gdjs.Percurso_32Belas_32ArtesCode.userFunc0x97da08(runtimeScene);
 
 }
 
@@ -659,7 +659,7 @@ gdjs.Percurso_32Belas_32ArtesCode.userFunc0x1202bc8(runtimeScene);
 {
 
 
-gdjs.Percurso_32Belas_32ArtesCode.userFunc0x1202c20(runtimeScene);
+gdjs.Percurso_32Belas_32ArtesCode.userFunc0x97da78(runtimeScene);
 
 }
 

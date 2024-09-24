@@ -800,7 +800,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDanswerObjects1);
 gdjs.copyArray(runtimeScene.getObjects("digits"), gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDdigitsObjects1);
 gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(2);
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(3);
 }{for(var i = 0, len = gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects1.length ;i < len;++i) {
     gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects1[i].setString("S. Pedro Alcantara Fim");
 }

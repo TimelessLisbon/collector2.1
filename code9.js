@@ -273,7 +273,7 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("URL"), gdjs.S_46_32Roque_32Entrada2Code.GDURLObjects1);
 gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.S_46_32Roque_32Entrada2Code.GDnext_9595sceneObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(6);
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(7);
 }{for(var i = 0, len = gdjs.S_46_32Roque_32Entrada2Code.GDnext_9595sceneObjects1.length ;i < len;++i) {
     gdjs.S_46_32Roque_32Entrada2Code.GDnext_9595sceneObjects1[i].setString("Percurso Ginja");
 }

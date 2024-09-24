@@ -559,7 +559,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.S_46_32Pedro_32Alcantara_32F
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "scene_start");
 }{runtimeScene.getScene().getVariables().get("scene").setString(gdjs.evtTools.runtimeScene.getSceneName(runtimeScene));
 }{runtimeScene.getScene().getVariables().get("video").setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(3);
+}{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(4);
 }{for(var i = 0, len = gdjs.S_46_32Pedro_32Alcantara_32FimCode.GDnext_9595sceneObjects1.length ;i < len;++i) {
     gdjs.S_46_32Pedro_32Alcantara_32FimCode.GDnext_9595sceneObjects1[i].setString("Percurso S. Roque");
 }

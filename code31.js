@@ -544,7 +544,7 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.Camoes_32EnigmaCode.GDpi
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "scene_start");
 }{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(27);
+}{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(29);
 }{runtimeScene.getScene().getVariables().get("cluegiven").setNumber(0);
 }{runtimeScene.getScene().getVariables().get("clueGM").setString("");
 }

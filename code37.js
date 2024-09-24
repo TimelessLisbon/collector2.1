@@ -396,7 +396,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("confetti"), gdjs.FimCode.GDconfettiObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(33);
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(35);
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "confetti");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "scene_start");

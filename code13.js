@@ -111,7 +111,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32GinjaCode.userFunc0x10e5a00 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32GinjaCode.userFunc0x11901b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -135,7 +135,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32GinjaCode.userFunc0x10e5a70 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32GinjaCode.userFunc0x1190228 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -369,7 +369,7 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("URL"), gdjs.Percurso_32GinjaCode.GDURLObjects1);
 gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32GinjaCode.GDnext_9595sceneObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(10);
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(11);
 }{for(var i = 0, len = gdjs.Percurso_32GinjaCode.GDnext_9595sceneObjects1.length ;i < len;++i) {
     gdjs.Percurso_32GinjaCode.GDnext_9595sceneObjects1[i].setString("Ginja Enigma");
 }
@@ -651,7 +651,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32GinjaCode.GDyesOb
 {
 
 
-gdjs.Percurso_32GinjaCode.userFunc0x10e5a00(runtimeScene);
+gdjs.Percurso_32GinjaCode.userFunc0x11901b8(runtimeScene);
 
 }
 
@@ -659,7 +659,7 @@ gdjs.Percurso_32GinjaCode.userFunc0x10e5a00(runtimeScene);
 {
 
 
-gdjs.Percurso_32GinjaCode.userFunc0x10e5a70(runtimeScene);
+gdjs.Percurso_32GinjaCode.userFunc0x1190228(runtimeScene);
 
 }
 

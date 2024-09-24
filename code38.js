@@ -131,7 +131,7 @@ let isConditionTrue_0 = false;
 let isConditionTrue_0 = false;
 {
 {gdjs.evtTools.leaderboards.displayLeaderboard(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)), true);
-}{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(34);
+}{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(36);
 }}
 
 }

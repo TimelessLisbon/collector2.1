@@ -111,7 +111,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32BicaCode.userFunc0x10e56c0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32BicaCode.userFunc0x1190338 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -135,7 +135,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32BicaCode.userFunc0x10e5730 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32BicaCode.userFunc0x11903a8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -368,7 +368,7 @@ let isConditionTrue_0 = false;
 let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("URL"), gdjs.Percurso_32BicaCode.GDURLObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(23);
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(24);
 }{for(var i = 0, len = gdjs.Percurso_32BicaCode.GDURLObjects1.length ;i < len;++i) {
     gdjs.Percurso_32BicaCode.GDURLObjects1[i].setString("https://www.google.com/maps/place/Bica+-+Lg.+Calhariz/@38.7106805,-9.1459955,21z/data=!4m6!3m5!1s0xd19348079ac5ecb:0xfd877bba8444544d!8m2!3d38.71076!4d-9.1458!16s%2Fg%2F11qgsgcpck?entry=ttu");
 }
@@ -735,7 +735,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32BicaCode.GDyesObj
 {
 
 
-gdjs.Percurso_32BicaCode.userFunc0x10e56c0(runtimeScene);
+gdjs.Percurso_32BicaCode.userFunc0x1190338(runtimeScene);
 
 }
 
@@ -743,7 +743,7 @@ gdjs.Percurso_32BicaCode.userFunc0x10e56c0(runtimeScene);
 {
 
 
-gdjs.Percurso_32BicaCode.userFunc0x10e5730(runtimeScene);
+gdjs.Percurso_32BicaCode.userFunc0x11903a8(runtimeScene);
 
 }
 

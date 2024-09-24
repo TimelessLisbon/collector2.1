@@ -319,7 +319,7 @@ let isConditionTrue_0 = false;
 let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Bolo_32de_32BacalhauCode.GDnext_9595sceneObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(16);
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(17);
 }{for(var i = 0, len = gdjs.Bolo_32de_32BacalhauCode.GDnext_9595sceneObjects1.length ;i < len;++i) {
     gdjs.Bolo_32de_32BacalhauCode.GDnext_9595sceneObjects1[i].setString("Percurso Brasileira");
 }
