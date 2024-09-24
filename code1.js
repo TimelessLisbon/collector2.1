@@ -63,7 +63,7 @@ gdjs.LanguageCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16034076);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15485212);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 0, 1);
@@ -81,7 +81,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16037236);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15488692);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -97,7 +97,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16039412);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15490932);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -113,7 +113,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16041572);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15493068);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -129,7 +129,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16043884);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15495356);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -253,7 +253,7 @@ gdjs.copyArray(gdjs.LanguageCode.GDyesObjects1, gdjs.LanguageCode.GDyesObjects2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16052916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15504404);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "notification-140376.mp3", false, 100, 1);
@@ -269,7 +269,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16055068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15506620);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -285,7 +285,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16057036);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15508668);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -754,6 +754,61 @@ gdjs.LanguageCode.GDgmapsObjects2.length = 0;
 gdjs.LanguageCode.GDgmapsObjects3.length = 0;
 
 gdjs.LanguageCode.eventsList8(runtimeScene);
+gdjs.LanguageCode.GDfundoObjects1.length = 0;
+gdjs.LanguageCode.GDfundoObjects2.length = 0;
+gdjs.LanguageCode.GDfundoObjects3.length = 0;
+gdjs.LanguageCode.GDportuguesObjects1.length = 0;
+gdjs.LanguageCode.GDportuguesObjects2.length = 0;
+gdjs.LanguageCode.GDportuguesObjects3.length = 0;
+gdjs.LanguageCode.GDinglesObjects1.length = 0;
+gdjs.LanguageCode.GDinglesObjects2.length = 0;
+gdjs.LanguageCode.GDinglesObjects3.length = 0;
+gdjs.LanguageCode.GDfrancesObjects1.length = 0;
+gdjs.LanguageCode.GDfrancesObjects2.length = 0;
+gdjs.LanguageCode.GDfrancesObjects3.length = 0;
+gdjs.LanguageCode.GDespanholObjects1.length = 0;
+gdjs.LanguageCode.GDespanholObjects2.length = 0;
+gdjs.LanguageCode.GDespanholObjects3.length = 0;
+gdjs.LanguageCode.GDfundo_9595limpoObjects1.length = 0;
+gdjs.LanguageCode.GDfundo_9595limpoObjects2.length = 0;
+gdjs.LanguageCode.GDfundo_9595limpoObjects3.length = 0;
+gdjs.LanguageCode.GDconfirmacaoObjects1.length = 0;
+gdjs.LanguageCode.GDconfirmacaoObjects2.length = 0;
+gdjs.LanguageCode.GDconfirmacaoObjects3.length = 0;
+gdjs.LanguageCode.GDyesObjects1.length = 0;
+gdjs.LanguageCode.GDyesObjects2.length = 0;
+gdjs.LanguageCode.GDyesObjects3.length = 0;
+gdjs.LanguageCode.GDnoObjects1.length = 0;
+gdjs.LanguageCode.GDnoObjects2.length = 0;
+gdjs.LanguageCode.GDnoObjects3.length = 0;
+gdjs.LanguageCode.GDscoreObjects1.length = 0;
+gdjs.LanguageCode.GDscoreObjects2.length = 0;
+gdjs.LanguageCode.GDscoreObjects3.length = 0;
+gdjs.LanguageCode.GDnext_9595sceneObjects1.length = 0;
+gdjs.LanguageCode.GDnext_9595sceneObjects2.length = 0;
+gdjs.LanguageCode.GDnext_9595sceneObjects3.length = 0;
+gdjs.LanguageCode.GDURLObjects1.length = 0;
+gdjs.LanguageCode.GDURLObjects2.length = 0;
+gdjs.LanguageCode.GDURLObjects3.length = 0;
+gdjs.LanguageCode.GDfundopistagmObjects1.length = 0;
+gdjs.LanguageCode.GDfundopistagmObjects2.length = 0;
+gdjs.LanguageCode.GDfundopistagmObjects3.length = 0;
+gdjs.LanguageCode.GDpistagmObjects1.length = 0;
+gdjs.LanguageCode.GDpistagmObjects2.length = 0;
+gdjs.LanguageCode.GDpistagmObjects3.length = 0;
+gdjs.LanguageCode.GDdigitsObjects1.length = 0;
+gdjs.LanguageCode.GDdigitsObjects2.length = 0;
+gdjs.LanguageCode.GDdigitsObjects3.length = 0;
+gdjs.LanguageCode.GDlocal_9595erradoObjects1.length = 0;
+gdjs.LanguageCode.GDlocal_9595erradoObjects2.length = 0;
+gdjs.LanguageCode.GDlocal_9595erradoObjects3.length = 0;
+gdjs.LanguageCode.GDtask_9595confirmationObjects1.length = 0;
+gdjs.LanguageCode.GDtask_9595confirmationObjects2.length = 0;
+gdjs.LanguageCode.GDtask_9595confirmationObjects3.length = 0;
+gdjs.LanguageCode.GDgmapsObjects1.length = 0;
+gdjs.LanguageCode.GDgmapsObjects2.length = 0;
+gdjs.LanguageCode.GDgmapsObjects3.length = 0;
+
 
 return;
 

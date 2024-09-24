@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Geolocation__PermissionStatus !== "undefined") {
 gdjs.evtsExt__Geolocation__PermissionStatus = {};
 
 
-gdjs.evtsExt__Geolocation__PermissionStatus.userFunc0x1211c78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Geolocation__PermissionStatus.userFunc0x870858 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = gdjs.evtTools.geolocation.permission.state;
 
@@ -18,7 +18,7 @@ gdjs.evtsExt__Geolocation__PermissionStatus.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__Geolocation__PermissionStatus.userFunc0x1211c78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Geolocation__PermissionStatus.userFunc0x870858(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -80,6 +80,7 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
 
 
 gdjs.evtsExt__Geolocation__PermissionStatus.eventsList0(runtimeScene, eventsFunctionContext);
+
 
 return "" + eventsFunctionContext.returnValue;
 }

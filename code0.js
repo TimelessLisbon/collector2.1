@@ -159,15 +159,16 @@ gdjs.copyArray(runtimeScene.getObjects("loading"), gdjs.StartCode.GDloadingObjec
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15972564);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15419972);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.database.getField(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)), "Score", runtimeScene.getScene().getVariables().getFromIndex(2), runtimeScene.getScene().getVariables().getFromIndex(4));
+{gdjs.evtTools.firebaseTools.database.getField(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)), "Progress", runtimeScene.getScene().getVariables().getFromIndex(3), runtimeScene.getScene().getVariables().getFromIndex(4));
+}{gdjs.evtTools.firebaseTools.database.getField(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)), "Score", runtimeScene.getScene().getVariables().getFromIndex(2), runtimeScene.getScene().getVariables().getFromIndex(4));
 }{gdjs.evtTools.firebaseTools.database.getField(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)), "Score_Finish", runtimeScene.getScene().getVariables().get("score_finish"), runtimeScene.getScene().getVariables().getFromIndex(4));
-}{gdjs.evtTools.firebaseTools.database.getField(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)), "Progress", runtimeScene.getScene().getVariables().getFromIndex(3), runtimeScene.getScene().getVariables().getFromIndex(4));
 }{gdjs.evtTools.firebaseTools.database.getField("Leaderboard", "ID", runtimeScene.getScene().getVariables().getFromIndex(10), runtimeScene.getScene().getVariables().getFromIndex(4));
 }{gdjs.evtTools.firebaseTools.database.getField(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)), "Team", runtimeScene.getScene().getVariables().getFromIndex(1), runtimeScene.getScene().getVariables().getFromIndex(4));
 }{gdjs.evtTools.firebaseTools.database.getField(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)), "Language", runtimeScene.getScene().getVariables().getFromIndex(9), runtimeScene.getScene().getVariables().getFromIndex(4));
+}{gdjs.evtTools.firebaseTools.database.getField(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)), "Equipa", runtimeScene.getScene().getVariables().getFromIndex(12), runtimeScene.getScene().getVariables().getFromIndex(4));
 }{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().getFromIndex(4));
 }{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "", runtimeScene.getScene().getVariables().getFromIndex(4));
 }{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Next", "", runtimeScene.getScene().getVariables().getFromIndex(4));
@@ -183,14 +184,15 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-{runtimeScene.getGame().getVariables().getFromIndex(0).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(3)));
+}{runtimeScene.getGame().getVariables().getFromIndex(0).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(2)));
-}{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(3)));
 }{runtimeScene.getGame().getVariables().getFromIndex(5).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("hour")));
 }{runtimeScene.getGame().getVariables().getFromIndex(6).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("minute")));
 }{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(9)));
 }{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("score_finish")));
 }{runtimeScene.getGame().getVariables().getFromIndex(4).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(10)));
+}{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(runtimeScene.getScene().getVariables().getFromIndex(12).getAsNumber());
 }}
 
 }
@@ -243,7 +245,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 0;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Login", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Login_", false);
 }}
 
 }
@@ -360,7 +362,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 10;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso Carmo", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso Ginja", false);
 }}
 
 }
@@ -373,7 +375,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 11;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Carmo Escadas", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Ginja Enigma", false);
 }}
 
 }
@@ -386,7 +388,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 12;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Carmo Enigma", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Ginja Fim", false);
 }}
 
 }
@@ -399,7 +401,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 13;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Bolo de Bacalhau", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso Carmo", false);
 }}
 
 }
@@ -412,7 +414,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 14;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso Brasileira", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Carmo Escadas", false);
 }}
 
 }
@@ -425,7 +427,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 15;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Brasileira Enigma", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Carmo Enigma", false);
 }}
 
 }
@@ -438,7 +440,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 16;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Brasileira Fim", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Bolo de Bacalhau", false);
 }}
 
 }
@@ -451,7 +453,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 17;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso Manteigaria", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso Brasileira", false);
 }}
 
 }
@@ -464,7 +466,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 18;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Manteigaria Enigma", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Brasileira Enigma", false);
 }}
 
 }
@@ -477,7 +479,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 19;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Manteigaria Fim", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Brasileira Fim", false);
 }}
 
 }
@@ -490,7 +492,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 20;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso Bica", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso Manteigaria", false);
 }}
 
 }
@@ -503,7 +505,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 21;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Bica Enigma", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Manteigaria Enigma", false);
 }}
 
 }
@@ -516,7 +518,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 22;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Bica Fim", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Manteigaria Fim", false);
 }}
 
 }
@@ -529,7 +531,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 23;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso Camoes", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso Bica", false);
 }}
 
 }
@@ -542,7 +544,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 24;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Camoes Enigma", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Bica Enigma", false);
 }}
 
 }
@@ -555,7 +557,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 25;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Camoes Fim", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Bica Fim", false);
 }}
 
 }
@@ -568,7 +570,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 26;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso S. Carlos", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso Camoes", false);
 }}
 
 }
@@ -581,7 +583,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 27;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Carlos", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Camoes Enigma", false);
 }}
 
 }
@@ -594,7 +596,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 28;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso Belas Artes", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Camoes Fim", false);
 }}
 
 }
@@ -607,7 +609,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 29;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Video", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso S. Carlos", false);
 }}
 
 }
@@ -620,7 +622,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 30;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Fim", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Carlos", false);
 }}
 
 }
@@ -632,6 +634,45 @@ if (isConditionTrue_0) {
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 31;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Percurso Belas Artes", false);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 32;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Video", false);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 33;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Fim", false);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) == 34;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Leaderboard", false);
 }}
@@ -894,6 +935,59 @@ gdjs.StartCode.GDgmapsObjects3.length = 0;
 gdjs.StartCode.GDgmapsObjects4.length = 0;
 
 gdjs.StartCode.eventsList6(runtimeScene);
+gdjs.StartCode.GDUIDObjects1.length = 0;
+gdjs.StartCode.GDUIDObjects2.length = 0;
+gdjs.StartCode.GDUIDObjects3.length = 0;
+gdjs.StartCode.GDUIDObjects4.length = 0;
+gdjs.StartCode.GDfundoObjects1.length = 0;
+gdjs.StartCode.GDfundoObjects2.length = 0;
+gdjs.StartCode.GDfundoObjects3.length = 0;
+gdjs.StartCode.GDfundoObjects4.length = 0;
+gdjs.StartCode.GDloadingObjects1.length = 0;
+gdjs.StartCode.GDloadingObjects2.length = 0;
+gdjs.StartCode.GDloadingObjects3.length = 0;
+gdjs.StartCode.GDloadingObjects4.length = 0;
+gdjs.StartCode.GDleaderboard_9595errorObjects1.length = 0;
+gdjs.StartCode.GDleaderboard_9595errorObjects2.length = 0;
+gdjs.StartCode.GDleaderboard_9595errorObjects3.length = 0;
+gdjs.StartCode.GDleaderboard_9595errorObjects4.length = 0;
+gdjs.StartCode.GDscoreObjects1.length = 0;
+gdjs.StartCode.GDscoreObjects2.length = 0;
+gdjs.StartCode.GDscoreObjects3.length = 0;
+gdjs.StartCode.GDscoreObjects4.length = 0;
+gdjs.StartCode.GDnext_9595sceneObjects1.length = 0;
+gdjs.StartCode.GDnext_9595sceneObjects2.length = 0;
+gdjs.StartCode.GDnext_9595sceneObjects3.length = 0;
+gdjs.StartCode.GDnext_9595sceneObjects4.length = 0;
+gdjs.StartCode.GDURLObjects1.length = 0;
+gdjs.StartCode.GDURLObjects2.length = 0;
+gdjs.StartCode.GDURLObjects3.length = 0;
+gdjs.StartCode.GDURLObjects4.length = 0;
+gdjs.StartCode.GDfundopistagmObjects1.length = 0;
+gdjs.StartCode.GDfundopistagmObjects2.length = 0;
+gdjs.StartCode.GDfundopistagmObjects3.length = 0;
+gdjs.StartCode.GDfundopistagmObjects4.length = 0;
+gdjs.StartCode.GDpistagmObjects1.length = 0;
+gdjs.StartCode.GDpistagmObjects2.length = 0;
+gdjs.StartCode.GDpistagmObjects3.length = 0;
+gdjs.StartCode.GDpistagmObjects4.length = 0;
+gdjs.StartCode.GDdigitsObjects1.length = 0;
+gdjs.StartCode.GDdigitsObjects2.length = 0;
+gdjs.StartCode.GDdigitsObjects3.length = 0;
+gdjs.StartCode.GDdigitsObjects4.length = 0;
+gdjs.StartCode.GDlocal_9595erradoObjects1.length = 0;
+gdjs.StartCode.GDlocal_9595erradoObjects2.length = 0;
+gdjs.StartCode.GDlocal_9595erradoObjects3.length = 0;
+gdjs.StartCode.GDlocal_9595erradoObjects4.length = 0;
+gdjs.StartCode.GDtask_9595confirmationObjects1.length = 0;
+gdjs.StartCode.GDtask_9595confirmationObjects2.length = 0;
+gdjs.StartCode.GDtask_9595confirmationObjects3.length = 0;
+gdjs.StartCode.GDtask_9595confirmationObjects4.length = 0;
+gdjs.StartCode.GDgmapsObjects1.length = 0;
+gdjs.StartCode.GDgmapsObjects2.length = 0;
+gdjs.StartCode.GDgmapsObjects3.length = 0;
+gdjs.StartCode.GDgmapsObjects4.length = 0;
+
 
 return;
 
