@@ -137,7 +137,7 @@ if (isConditionTrue_0) {
 }{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1))), runtimeScene.getScene().getVariables().get("error"));
 }{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Progress", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2))), runtimeScene.getScene().getVariables().get("error"));
 }{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Equipa", runtimeScene.getScene().getVariables().getFromIndex(3).getAsString(), runtimeScene.getScene().getVariables().get("error"));
-}{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getAsNumber());
+}{runtimeScene.getGame().getVariables().getFromIndex(9).setString(runtimeScene.getScene().getVariables().getFromIndex(3).getAsString());
 }}
 
 }

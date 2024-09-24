@@ -192,7 +192,7 @@ let isConditionTrue_0 = false;
 }{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(9)));
 }{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("score_finish")));
 }{runtimeScene.getGame().getVariables().getFromIndex(4).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(10)));
-}{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(runtimeScene.getScene().getVariables().getFromIndex(12).getAsNumber());
+}{runtimeScene.getGame().getVariables().getFromIndex(9).setString(runtimeScene.getScene().getVariables().getFromIndex(12).getAsString());
 }}
 
 }
