@@ -50,54 +50,6 @@ gdjs.Camoes_32FimCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{let isConditionTrue_1 = false;
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_amarela"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_azul"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_castanha"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_rosa"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_roxa"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_verde"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_azulclara"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_vermelha"));
-}
-}
-}
-}
-}
-}
-}
-isConditionTrue_0 = isConditionTrue_1;
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Logout", false);
-}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "UID");
-}}
-
-}
-
-
-};gdjs.Camoes_32FimCode.eventsList1 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16062172);
 }
 if (isConditionTrue_0) {
@@ -114,7 +66,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Camoes_32FimCode.eventsList2 = function(runtimeScene) {
+};gdjs.Camoes_32FimCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -164,7 +116,7 @@ gdjs.copyArray(runtimeScene.getObjects("fundo"), gdjs.Camoes_32FimCode.GDfundoOb
 }
 
 
-};gdjs.Camoes_32FimCode.eventsList3 = function(runtimeScene) {
+};gdjs.Camoes_32FimCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -180,7 +132,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Camoes_32FimCode.eventsList4 = function(runtimeScene) {
+};gdjs.Camoes_32FimCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -196,7 +148,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Camoes_32FimCode.eventsList5 = function(runtimeScene) {
+};gdjs.Camoes_32FimCode.eventsList4 = function(runtimeScene) {
 
 {
 
@@ -212,7 +164,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Camoes_32FimCode.eventsList6 = function(runtimeScene) {
+};gdjs.Camoes_32FimCode.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -256,69 +208,11 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Camoes_32FimCode.GDne
 }
 
 
-};gdjs.Camoes_32FimCode.eventsList7 = function(runtimeScene) {
+};gdjs.Camoes_32FimCode.eventsList6 = function(runtimeScene) {
 
 {
 
 
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "UID");
-}{gdjs.evtsExt__Geolocation__LocatePlayer.func(runtimeScene, runtimeScene.getScene().getVariables().get("GPS"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{runtimeScene.getGame().getVariables().get("UID_atual").setString(gdjs.evtTools.firebaseTools.auth.userManagement.getUID());
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Amarela", runtimeScene.getScene().getVariables().get("UID_amarela"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Azul", runtimeScene.getScene().getVariables().get("UID_azul"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Castanha", runtimeScene.getScene().getVariables().get("UID_castanha"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Rosa", runtimeScene.getScene().getVariables().get("UID_rosa"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Roxa", runtimeScene.getScene().getVariables().get("UID_roxa"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Verde", runtimeScene.getScene().getVariables().get("UID_verde"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "AzulClara", runtimeScene.getScene().getVariables().get("UID_azulclara"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Vermelha", runtimeScene.getScene().getVariables().get("UID_vermelha"), runtimeScene.getScene().getVariables().get("error"));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "UID") > 5;
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.Camoes_32FimCode.eventsList0(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
 
 }
 
@@ -373,7 +267,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Camoes_32FimCode.GDyesObject
 }{runtimeScene.getScene().getVariables().get("scene").setString(gdjs.evtTools.runtimeScene.getSceneName(runtimeScene));
 }
 { //Subevents
-gdjs.Camoes_32FimCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.Camoes_32FimCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 }
@@ -641,7 +535,7 @@ if(isConditionTrue_1) {
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.Camoes_32FimCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.Camoes_32FimCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -683,7 +577,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Camoes_32FimCode.GDyesObject
 }
 }
 { //Subevents
-gdjs.Camoes_32FimCode.eventsList3(runtimeScene);} //End of subevents
+gdjs.Camoes_32FimCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -729,7 +623,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Camoes_32FimCode.GDyesObject
 }
 }
 { //Subevents
-gdjs.Camoes_32FimCode.eventsList4(runtimeScene);} //End of subevents
+gdjs.Camoes_32FimCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 }
@@ -800,7 +694,7 @@ if (isConditionTrue_0) {
 }{runtimeScene.getScene().getVariables().get("next").setString("");
 }
 { //Subevents
-gdjs.Camoes_32FimCode.eventsList5(runtimeScene);} //End of subevents
+gdjs.Camoes_32FimCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 }
@@ -824,7 +718,7 @@ if (isConditionTrue_0) {
 }{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)), gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }
 { //Subevents
-gdjs.Camoes_32FimCode.eventsList6(runtimeScene);} //End of subevents
+gdjs.Camoes_32FimCode.eventsList5(runtimeScene);} //End of subevents
 }
 
 }
@@ -875,7 +769,7 @@ gdjs.Camoes_32FimCode.GDgmapsObjects1.length = 0;
 gdjs.Camoes_32FimCode.GDgmapsObjects2.length = 0;
 gdjs.Camoes_32FimCode.GDgmapsObjects3.length = 0;
 
-gdjs.Camoes_32FimCode.eventsList7(runtimeScene);
+gdjs.Camoes_32FimCode.eventsList6(runtimeScene);
 gdjs.Camoes_32FimCode.GDprox_9595localObjects1.length = 0;
 gdjs.Camoes_32FimCode.GDprox_9595localObjects2.length = 0;
 gdjs.Camoes_32FimCode.GDprox_9595localObjects3.length = 0;

@@ -54,54 +54,6 @@ gdjs.Percurso_32S_46_32RoqueCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{let isConditionTrue_1 = false;
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_amarela"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_azul"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_castanha"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_rosa"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_roxa"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_verde"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_azulclara"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_vermelha"));
-}
-}
-}
-}
-}
-}
-}
-isConditionTrue_0 = isConditionTrue_1;
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Logout", false);
-}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "UID");
-}}
-
-}
-
-
-};gdjs.Percurso_32S_46_32RoqueCode.eventsList1 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16247924);
 }
 if (isConditionTrue_0) {
@@ -119,7 +71,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32S_46_32RoqueCode.userFunc0x11e5c80 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32S_46_32RoqueCode.userFunc0x108a8f8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -143,7 +95,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32S_46_32RoqueCode.userFunc0x11e5cf0 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32S_46_32RoqueCode.userFunc0x11c45f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -168,7 +120,7 @@ function geoFindMe() {
 geoFindMe();
 };
 gdjs.Percurso_32S_46_32RoqueCode.mapOfGDgdjs_9546Percurso_959532S_959546_959532RoqueCode_9546GDpercursoObjects2Objects = Hashtable.newFrom({"percurso": gdjs.Percurso_32S_46_32RoqueCode.GDpercursoObjects2});
-gdjs.Percurso_32S_46_32RoqueCode.eventsList2 = function(runtimeScene) {
+gdjs.Percurso_32S_46_32RoqueCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -184,7 +136,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32S_46_32RoqueCode.eventsList3 = function(runtimeScene) {
+};gdjs.Percurso_32S_46_32RoqueCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -222,7 +174,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32S_46_32RoqueCode.
 }
 
 
-};gdjs.Percurso_32S_46_32RoqueCode.eventsList4 = function(runtimeScene) {
+};gdjs.Percurso_32S_46_32RoqueCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -262,7 +214,7 @@ gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.Percurso_32S_46_32RoqueCode.G
 }
 
 
-};gdjs.Percurso_32S_46_32RoqueCode.eventsList5 = function(runtimeScene) {
+};gdjs.Percurso_32S_46_32RoqueCode.eventsList4 = function(runtimeScene) {
 
 {
 
@@ -305,69 +257,11 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32S_46_32Roq
 }
 
 
-};gdjs.Percurso_32S_46_32RoqueCode.eventsList6 = function(runtimeScene) {
+};gdjs.Percurso_32S_46_32RoqueCode.eventsList5 = function(runtimeScene) {
 
 {
 
 
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "UID");
-}{gdjs.evtsExt__Geolocation__LocatePlayer.func(runtimeScene, runtimeScene.getScene().getVariables().get("GPS"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{runtimeScene.getGame().getVariables().get("UID_atual").setString(gdjs.evtTools.firebaseTools.auth.userManagement.getUID());
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Amarela", runtimeScene.getScene().getVariables().get("UID_amarela"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Azul", runtimeScene.getScene().getVariables().get("UID_azul"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Castanha", runtimeScene.getScene().getVariables().get("UID_castanha"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Rosa", runtimeScene.getScene().getVariables().get("UID_rosa"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Roxa", runtimeScene.getScene().getVariables().get("UID_roxa"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Verde", runtimeScene.getScene().getVariables().get("UID_verde"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "AzulClara", runtimeScene.getScene().getVariables().get("UID_azulclara"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Vermelha", runtimeScene.getScene().getVariables().get("UID_vermelha"), runtimeScene.getScene().getVariables().get("error"));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "UID") > 5;
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.Percurso_32S_46_32RoqueCode.eventsList0(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
 
 }
 
@@ -520,7 +414,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32S_46_32RoqueCode.
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "maps2");
 }
 { //Subevents
-gdjs.Percurso_32S_46_32RoqueCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.Percurso_32S_46_32RoqueCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 }
@@ -745,7 +639,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32S_46_32RoqueCode.
 {
 
 
-gdjs.Percurso_32S_46_32RoqueCode.userFunc0x11e5c80(runtimeScene);
+gdjs.Percurso_32S_46_32RoqueCode.userFunc0x108a8f8(runtimeScene);
 
 }
 
@@ -753,7 +647,7 @@ gdjs.Percurso_32S_46_32RoqueCode.userFunc0x11e5c80(runtimeScene);
 {
 
 
-gdjs.Percurso_32S_46_32RoqueCode.userFunc0x11e5cf0(runtimeScene);
+gdjs.Percurso_32S_46_32RoqueCode.userFunc0x11c45f0(runtimeScene);
 
 }
 
@@ -852,7 +746,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32S_46_32RoqueCode.
 }
 }
 { //Subevents
-gdjs.Percurso_32S_46_32RoqueCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.Percurso_32S_46_32RoqueCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -890,7 +784,7 @@ if (isConditionTrue_0) {
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "maps2");
 }
 { //Subevents
-gdjs.Percurso_32S_46_32RoqueCode.eventsList3(runtimeScene);} //End of subevents
+gdjs.Percurso_32S_46_32RoqueCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -928,7 +822,7 @@ if (isConditionTrue_0) {
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "maps2");
 }
 { //Subevents
-gdjs.Percurso_32S_46_32RoqueCode.eventsList4(runtimeScene);} //End of subevents
+gdjs.Percurso_32S_46_32RoqueCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 }
@@ -1035,7 +929,7 @@ if (isConditionTrue_0) {
 }{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)), gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }
 { //Subevents
-gdjs.Percurso_32S_46_32RoqueCode.eventsList5(runtimeScene);} //End of subevents
+gdjs.Percurso_32S_46_32RoqueCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 }
@@ -1086,7 +980,7 @@ gdjs.Percurso_32S_46_32RoqueCode.GDgmapsObjects1.length = 0;
 gdjs.Percurso_32S_46_32RoqueCode.GDgmapsObjects2.length = 0;
 gdjs.Percurso_32S_46_32RoqueCode.GDgmapsObjects3.length = 0;
 
-gdjs.Percurso_32S_46_32RoqueCode.eventsList6(runtimeScene);
+gdjs.Percurso_32S_46_32RoqueCode.eventsList5(runtimeScene);
 gdjs.Percurso_32S_46_32RoqueCode.GDnoObjects1.length = 0;
 gdjs.Percurso_32S_46_32RoqueCode.GDnoObjects2.length = 0;
 gdjs.Percurso_32S_46_32RoqueCode.GDnoObjects3.length = 0;
