@@ -7,63 +7,48 @@ gdjs.Carmo_32EnigmaCode.GDclueObjects1_1final = [];
 gdjs.Carmo_32EnigmaCode.GDokObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDokObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDokObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDokObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDseguinteObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDseguinteObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDseguinteObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDseguinteObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDanteriorObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDanteriorObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDanteriorObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDanteriorObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDfundoObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDfundoObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDfundoObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDfundoObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDclueObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDclueObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDclueObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDclueObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDanswerObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDanswerObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDanswerObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDanswerObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDscoreObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDscoreObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDscoreObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDscoreObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDnext_9595sceneObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDnext_9595sceneObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDnext_9595sceneObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDnext_9595sceneObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDURLObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDURLObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDURLObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDURLObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDfundopistagmObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDfundopistagmObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDfundopistagmObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDfundopistagmObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDpistagmObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDpistagmObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDpistagmObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDpistagmObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDdigitsObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDdigitsObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDdigitsObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDdigitsObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDlocal_9595erradoObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDlocal_9595erradoObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDlocal_9595erradoObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDlocal_9595erradoObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDtask_9595confirmationObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDtask_9595confirmationObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDtask_9595confirmationObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDtask_9595confirmationObjects4= [];
 gdjs.Carmo_32EnigmaCode.GDgmapsObjects1= [];
 gdjs.Carmo_32EnigmaCode.GDgmapsObjects2= [];
 gdjs.Carmo_32EnigmaCode.GDgmapsObjects3= [];
-gdjs.Carmo_32EnigmaCode.GDgmapsObjects4= [];
 
 
 gdjs.Carmo_32EnigmaCode.eventsList0 = function(runtimeScene) {
@@ -517,7 +502,8 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)) < 5;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16158612);
+}
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(15 - runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() * 3);
 }}
@@ -525,12 +511,15 @@ if (isConditionTrue_0) {
 }
 
 
+};gdjs.Carmo_32EnigmaCode.eventsList15 = function(runtimeScene) {
+
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)) >= 5;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16209692);
+}
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(0);
 }}
@@ -538,7 +527,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Carmo_32EnigmaCode.eventsList15 = function(runtimeScene) {
+};gdjs.Carmo_32EnigmaCode.eventsList16 = function(runtimeScene) {
 
 {
 
@@ -563,12 +552,26 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16158612);
-}
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)) < 5;
 if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.Carmo_32EnigmaCode.eventsList14(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)) >= 5;
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.Carmo_32EnigmaCode.eventsList15(runtimeScene);} //End of subevents
 }
 
 }
@@ -629,7 +632,7 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Carmo_32EnigmaCode.GD
 }
 
 
-};gdjs.Carmo_32EnigmaCode.eventsList16 = function(runtimeScene) {
+};gdjs.Carmo_32EnigmaCode.eventsList17 = function(runtimeScene) {
 
 {
 
@@ -646,7 +649,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Carmo_32EnigmaCode.eventsList17 = function(runtimeScene) {
+};gdjs.Carmo_32EnigmaCode.eventsList18 = function(runtimeScene) {
 
 {
 
@@ -662,7 +665,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Carmo_32EnigmaCode.eventsList18 = function(runtimeScene) {
+};gdjs.Carmo_32EnigmaCode.eventsList19 = function(runtimeScene) {
 
 {
 
@@ -679,7 +682,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Carmo_32EnigmaCode.eventsList19 = function(runtimeScene) {
+};gdjs.Carmo_32EnigmaCode.eventsList20 = function(runtimeScene) {
 
 {
 
@@ -1623,7 +1626,7 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)), gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }
 { //Subevents
-gdjs.Carmo_32EnigmaCode.eventsList15(runtimeScene);} //End of subevents
+gdjs.Carmo_32EnigmaCode.eventsList16(runtimeScene);} //End of subevents
 }
 
 }
@@ -1655,7 +1658,7 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.Carmo_32EnigmaCode.GDpis
 }{runtimeScene.getScene().getVariables().get("clueGM").setString("");
 }
 { //Subevents
-gdjs.Carmo_32EnigmaCode.eventsList16(runtimeScene);} //End of subevents
+gdjs.Carmo_32EnigmaCode.eventsList17(runtimeScene);} //End of subevents
 }
 
 }
@@ -1753,7 +1756,7 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.Carmo_32EnigmaCode.GDpis
 }
 }
 { //Subevents
-gdjs.Carmo_32EnigmaCode.eventsList17(runtimeScene);} //End of subevents
+gdjs.Carmo_32EnigmaCode.eventsList18(runtimeScene);} //End of subevents
 }
 
 }
@@ -1802,7 +1805,7 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.Carmo_32EnigmaCode.GDpis
 }{runtimeScene.getScene().getVariables().get("cluegiven").setNumber(0);
 }
 { //Subevents
-gdjs.Carmo_32EnigmaCode.eventsList18(runtimeScene);} //End of subevents
+gdjs.Carmo_32EnigmaCode.eventsList19(runtimeScene);} //End of subevents
 }
 
 }
@@ -1826,125 +1829,95 @@ runtimeScene.getOnceTriggers().startNewFrame();
 gdjs.Carmo_32EnigmaCode.GDokObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDokObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDokObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDokObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDseguinteObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDseguinteObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDseguinteObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDseguinteObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDanteriorObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDanteriorObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDanteriorObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDanteriorObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDfundoObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDfundoObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDfundoObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDfundoObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDclueObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDclueObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDclueObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDclueObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDanswerObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDanswerObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDanswerObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDanswerObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDscoreObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDscoreObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDscoreObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDscoreObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDnext_9595sceneObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDnext_9595sceneObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDnext_9595sceneObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDnext_9595sceneObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDURLObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDURLObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDURLObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDURLObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDfundopistagmObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDfundopistagmObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDfundopistagmObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDfundopistagmObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDpistagmObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDpistagmObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDpistagmObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDpistagmObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDdigitsObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDdigitsObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDdigitsObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDdigitsObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDlocal_9595erradoObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDlocal_9595erradoObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDlocal_9595erradoObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDlocal_9595erradoObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDtask_9595confirmationObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDtask_9595confirmationObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDtask_9595confirmationObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDtask_9595confirmationObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDgmapsObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDgmapsObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDgmapsObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDgmapsObjects4.length = 0;
 
-gdjs.Carmo_32EnigmaCode.eventsList19(runtimeScene);
+gdjs.Carmo_32EnigmaCode.eventsList20(runtimeScene);
 gdjs.Carmo_32EnigmaCode.GDokObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDokObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDokObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDokObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDseguinteObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDseguinteObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDseguinteObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDseguinteObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDanteriorObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDanteriorObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDanteriorObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDanteriorObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDfundoObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDfundoObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDfundoObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDfundoObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDclueObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDclueObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDclueObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDclueObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDanswerObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDanswerObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDanswerObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDanswerObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDscoreObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDscoreObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDscoreObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDscoreObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDnext_9595sceneObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDnext_9595sceneObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDnext_9595sceneObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDnext_9595sceneObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDURLObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDURLObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDURLObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDURLObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDfundopistagmObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDfundopistagmObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDfundopistagmObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDfundopistagmObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDpistagmObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDpistagmObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDpistagmObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDpistagmObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDdigitsObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDdigitsObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDdigitsObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDdigitsObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDlocal_9595erradoObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDlocal_9595erradoObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDlocal_9595erradoObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDlocal_9595erradoObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDtask_9595confirmationObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDtask_9595confirmationObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDtask_9595confirmationObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDtask_9595confirmationObjects4.length = 0;
 gdjs.Carmo_32EnigmaCode.GDgmapsObjects1.length = 0;
 gdjs.Carmo_32EnigmaCode.GDgmapsObjects2.length = 0;
 gdjs.Carmo_32EnigmaCode.GDgmapsObjects3.length = 0;
-gdjs.Carmo_32EnigmaCode.GDgmapsObjects4.length = 0;
 
 
 return;

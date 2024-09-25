@@ -7,55 +7,42 @@ gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDclueObjects1_1final = [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDokObjects1= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDokObjects2= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDokObjects3= [];
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDokObjects4= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundoObjects1= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundoObjects2= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundoObjects3= [];
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundoObjects4= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDclueObjects1= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDclueObjects2= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDclueObjects3= [];
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDclueObjects4= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDanswerObjects1= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDanswerObjects2= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDanswerObjects3= [];
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDanswerObjects4= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDscoreObjects1= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDscoreObjects2= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDscoreObjects3= [];
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDscoreObjects4= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects1= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects2= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects3= [];
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects4= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDURLObjects1= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDURLObjects2= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDURLObjects3= [];
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDURLObjects4= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundopistagmObjects1= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundopistagmObjects2= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundopistagmObjects3= [];
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundopistagmObjects4= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDpistagmObjects1= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDpistagmObjects2= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDpistagmObjects3= [];
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDpistagmObjects4= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDdigitsObjects1= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDdigitsObjects2= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDdigitsObjects3= [];
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDdigitsObjects4= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDlocal_9595erradoObjects1= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDlocal_9595erradoObjects2= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDlocal_9595erradoObjects3= [];
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDlocal_9595erradoObjects4= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDtask_9595confirmationObjects1= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDtask_9595confirmationObjects2= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDtask_9595confirmationObjects3= [];
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDtask_9595confirmationObjects4= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDgmapsObjects1= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDgmapsObjects2= [];
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDgmapsObjects3= [];
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDgmapsObjects4= [];
 
 
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList0 = function(runtimeScene) {
@@ -509,20 +496,8 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.VariablesContainer.badVariable) < 5;
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(1).add(0);
-}}
-
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16158612);
 }
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.VariablesContainer.badVariable) >= 5;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(0);
 }}
@@ -531,6 +506,22 @@ if (isConditionTrue_0) {
 
 
 };gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList15 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16209692);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(1).add(0);
+}}
+
+}
+
+
+};gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList16 = function(runtimeScene) {
 
 {
 
@@ -555,12 +546,26 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16158612);
-}
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.VariablesContainer.badVariable) < 5;
 if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList14(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.VariablesContainer.badVariable) >= 5;
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList15(runtimeScene);} //End of subevents
 }
 
 }
@@ -621,7 +626,7 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.S_46_32Pedro_32Alcant
 }
 
 
-};gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList16 = function(runtimeScene) {
+};gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList17 = function(runtimeScene) {
 
 {
 
@@ -638,7 +643,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList17 = function(runtimeScene) {
+};gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList18 = function(runtimeScene) {
 
 {
 
@@ -654,7 +659,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList18 = function(runtimeScene) {
+};gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList19 = function(runtimeScene) {
 
 {
 
@@ -671,7 +676,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList19 = function(runtimeScene) {
+};gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList20 = function(runtimeScene) {
 
 {
 
@@ -1599,7 +1604,7 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)), gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }
 { //Subevents
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList15(runtimeScene);} //End of subevents
+gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList16(runtimeScene);} //End of subevents
 }
 
 }
@@ -1631,7 +1636,7 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.S_46_32Pedro_32Alcantara
 }{runtimeScene.getScene().getVariables().get("clueGM").setString("");
 }
 { //Subevents
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList16(runtimeScene);} //End of subevents
+gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList17(runtimeScene);} //End of subevents
 }
 
 }
@@ -1729,7 +1734,7 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.S_46_32Pedro_32Alcantara
 }
 }
 { //Subevents
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList17(runtimeScene);} //End of subevents
+gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList18(runtimeScene);} //End of subevents
 }
 
 }
@@ -1778,7 +1783,7 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.S_46_32Pedro_32Alcantara
 }{runtimeScene.getScene().getVariables().get("cluegiven").setNumber(0);
 }
 { //Subevents
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList18(runtimeScene);} //End of subevents
+gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList19(runtimeScene);} //End of subevents
 }
 
 }
@@ -1792,109 +1797,83 @@ runtimeScene.getOnceTriggers().startNewFrame();
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDokObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDokObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDokObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDokObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundoObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundoObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundoObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundoObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDclueObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDclueObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDclueObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDclueObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDanswerObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDanswerObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDanswerObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDanswerObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDscoreObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDscoreObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDscoreObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDscoreObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDURLObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDURLObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDURLObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDURLObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundopistagmObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundopistagmObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundopistagmObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundopistagmObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDpistagmObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDpistagmObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDpistagmObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDpistagmObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDdigitsObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDdigitsObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDdigitsObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDdigitsObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDlocal_9595erradoObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDlocal_9595erradoObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDlocal_9595erradoObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDlocal_9595erradoObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDtask_9595confirmationObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDtask_9595confirmationObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDtask_9595confirmationObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDtask_9595confirmationObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDgmapsObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDgmapsObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDgmapsObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDgmapsObjects4.length = 0;
 
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList19(runtimeScene);
+gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.eventsList20(runtimeScene);
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDokObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDokObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDokObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDokObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundoObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundoObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundoObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundoObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDclueObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDclueObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDclueObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDclueObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDanswerObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDanswerObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDanswerObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDanswerObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDscoreObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDscoreObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDscoreObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDscoreObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDnext_9595sceneObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDURLObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDURLObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDURLObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDURLObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundopistagmObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundopistagmObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundopistagmObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDfundopistagmObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDpistagmObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDpistagmObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDpistagmObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDpistagmObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDdigitsObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDdigitsObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDdigitsObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDdigitsObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDlocal_9595erradoObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDlocal_9595erradoObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDlocal_9595erradoObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDlocal_9595erradoObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDtask_9595confirmationObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDtask_9595confirmationObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDtask_9595confirmationObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDtask_9595confirmationObjects4.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDgmapsObjects1.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDgmapsObjects2.length = 0;
 gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDgmapsObjects3.length = 0;
-gdjs.S_46_32Pedro_32Alcantara_32Enigma2Code.GDgmapsObjects4.length = 0;
 
 
 return;
