@@ -488,6 +488,58 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 104.5;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") < 105.5;
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(0);
+}
+{ //Subevents
+gdjs.Safeguard_95appCode.eventsList13(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 105.5;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
+}{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
+}}
+
+}
+
+
+};gdjs.Safeguard_95appCode.eventsList15 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15719252);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.firebaseTools.database.writeField("Hack", "Status", "", gdjs.VariablesContainer.badVariable);
+}}
+
+}
+
+
+};gdjs.Safeguard_95appCode.eventsList16 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 {let isConditionTrue_1 = false;
 isConditionTrue_0 = false;
 {
@@ -565,61 +617,6 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Safeguard_95appCode.eventsList15 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 104.5;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") < 105.5;
-}
-if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(0);
-}
-{ //Subevents
-gdjs.Safeguard_95appCode.eventsList13(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "next scene") >= 105.5;
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
-}{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
-}
-{ //Subevents
-gdjs.Safeguard_95appCode.eventsList14(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.Safeguard_95appCode.eventsList16 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15719252);
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.database.writeField("Hack", "Status", "", gdjs.VariablesContainer.badVariable);
-}}
-
-}
-
-
 };gdjs.Safeguard_95appCode.eventsList17 = function(runtimeScene) {
 
 {
@@ -636,7 +633,7 @@ if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(0);
 }
 { //Subevents
-gdjs.Safeguard_95appCode.eventsList16(runtimeScene);} //End of subevents
+gdjs.Safeguard_95appCode.eventsList15(runtimeScene);} //End of subevents
 }
 
 }
@@ -651,8 +648,10 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "S. Pedro Alcantara Enigma", false);
-}}
+}
+{ //Subevents
+gdjs.Safeguard_95appCode.eventsList16(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -1444,7 +1443,7 @@ if(isConditionTrue_1) {
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.Safeguard_95appCode.eventsList15(runtimeScene);} //End of subevents
+gdjs.Safeguard_95appCode.eventsList14(runtimeScene);} //End of subevents
 }
 
 }

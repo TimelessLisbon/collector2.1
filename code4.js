@@ -549,22 +549,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (0 == 0);
-}
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(1).add(15);
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (0 >= 0);
-}
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.VariablesContainer.badVariable) < 5;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(0);
 }}
@@ -577,8 +562,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (0 < 0);
-}
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.VariablesContainer.badVariable) >= 5;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(0);
 }}
