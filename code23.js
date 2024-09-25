@@ -72,6 +72,14 @@ isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGam
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
 isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_verde"));
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_azulclara"));
+if (isConditionTrue_1) {
+isConditionTrue_1 = false;
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_vermelha"));
+}
+}
 }
 }
 }
@@ -111,7 +119,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32ManteigariaCode.userFunc0x1083cb0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32ManteigariaCode.userFunc0xb983c8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -135,7 +143,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32ManteigariaCode.userFunc0x1083d20 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32ManteigariaCode.userFunc0xb98420 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -332,6 +340,8 @@ let isConditionTrue_0 = false;
 }{gdjs.evtTools.firebaseTools.database.getField("UID", "Rosa", runtimeScene.getScene().getVariables().get("UID_rosa"), runtimeScene.getScene().getVariables().get("error"));
 }{gdjs.evtTools.firebaseTools.database.getField("UID", "Roxa", runtimeScene.getScene().getVariables().get("UID_roxa"), runtimeScene.getScene().getVariables().get("error"));
 }{gdjs.evtTools.firebaseTools.database.getField("UID", "Verde", runtimeScene.getScene().getVariables().get("UID_verde"), runtimeScene.getScene().getVariables().get("error"));
+}{gdjs.evtTools.firebaseTools.database.getField("UID", "AzulClara", runtimeScene.getScene().getVariables().get("UID_azulclara"), runtimeScene.getScene().getVariables().get("error"));
+}{gdjs.evtTools.firebaseTools.database.getField("UID", "Vermelha", runtimeScene.getScene().getVariables().get("UID_vermelha"), runtimeScene.getScene().getVariables().get("error"));
 }}
 
 }
@@ -651,7 +661,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32ManteigariaCode.G
 {
 
 
-gdjs.Percurso_32ManteigariaCode.userFunc0x1083cb0(runtimeScene);
+gdjs.Percurso_32ManteigariaCode.userFunc0xb983c8(runtimeScene);
 
 }
 
@@ -659,7 +669,7 @@ gdjs.Percurso_32ManteigariaCode.userFunc0x1083cb0(runtimeScene);
 {
 
 
-gdjs.Percurso_32ManteigariaCode.userFunc0x1083d20(runtimeScene);
+gdjs.Percurso_32ManteigariaCode.userFunc0xb98420(runtimeScene);
 
 }
 
