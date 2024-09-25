@@ -55,7 +55,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16031596);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Clues", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("clueV"))), runtimeScene.getScene().getVariables().get("error"));
+{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Clues", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1))), runtimeScene.getScene().getVariables().get("error"));
 }{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
 }{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Team", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), runtimeScene.getScene().getVariables().get("error"));
 }{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
@@ -83,7 +83,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1, gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2);
 
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Answer", (( gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2.length === 0 ) ? "" :gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2[0].getText()), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Clues", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("clueV"))), runtimeScene.getScene().getVariables().get("error"));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Clues", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1))), runtimeScene.getScene().getVariables().get("error"));
 }}
 
 }
@@ -448,7 +448,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16158612);
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(1).add(0);
+{runtimeScene.getGame().getVariables().getFromIndex(1).add(15 - runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber() * 3);
 }}
 
 }
@@ -495,7 +495,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.VariablesContainer.badVariable) < 5;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1)) < 5;
 if (isConditionTrue_0) {
 
 { //Subevents
@@ -510,7 +510,7 @@ gdjs.S_46_32Roque_32Cruzadas_322Code.eventsList13(runtimeScene);} //End of subev
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.VariablesContainer.badVariable) >= 5;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1)) >= 5;
 if (isConditionTrue_0) {
 
 { //Subevents
@@ -663,7 +663,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 0;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().get("answer").setString("PADRE");
+{runtimeScene.getScene().getVariables().getFromIndex(0).setString("PADRE");
 }}
 
 }
@@ -676,7 +676,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 1;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().get("answer").setString("PRIEST");
+{runtimeScene.getScene().getVariables().getFromIndex(0).setString("PRIEST");
 }}
 
 }
@@ -689,7 +689,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 2;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().get("answer").setString("PRÊTRE");
+{runtimeScene.getScene().getVariables().getFromIndex(0).setString("PRÊTRE");
 }}
 
 }
@@ -702,7 +702,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 3;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().get("answer").setString("PADRE");
+{runtimeScene.getScene().getVariables().getFromIndex(0).setString("PADRE");
 }}
 
 }
@@ -738,7 +738,7 @@ gdjs.copyArray(runtimeScene.getObjects("ok"), gdjs.S_46_32Roque_32Cruzadas_322Co
 }{for(var i = 0, len = gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1.length ;i < len;++i) {
     gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[i].setX((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[i].getWidth())) / 2);
 }
-}{runtimeScene.getScene().getVariables().get("clueV").setNumber(0);
+}{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(0);
 }{runtimeScene.getScene().getVariables().get("digits").setNumber(0);
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "clue");
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "digits");
@@ -1043,7 +1043,7 @@ isConditionTrue_0 = false;
 {let isConditionTrue_1 = false;
 isConditionTrue_1 = false;
 for (var i = 0, k = 0, l = gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1.length;i<l;++i) {
-    if ( gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[i].getText() != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("answer")) ) {
+    if ( gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[i].getText() != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)) ) {
         isConditionTrue_1 = true;
         gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[k] = gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[i];
         ++k;
@@ -1053,7 +1053,7 @@ gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1.length = k;
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
 for (var i = 0, k = 0, l = gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1.length;i<l;++i) {
-    if ( gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[i].getText() != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("answer")) + " " ) {
+    if ( gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[i].getText() != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)) + " " ) {
         isConditionTrue_1 = true;
         gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[k] = gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[i];
         ++k;
@@ -1063,7 +1063,7 @@ gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1.length = k;
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
 for (var i = 0, k = 0, l = gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1.length;i<l;++i) {
-    if ( !((gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[i].getText()).includes(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("answer")))) ) {
+    if ( !((gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[i].getText()).includes(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)))) ) {
         isConditionTrue_1 = true;
         gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[k] = gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects1[i];
         ++k;
@@ -1079,7 +1079,7 @@ isConditionTrue_0 = isConditionTrue_1;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().get("clueV").add(1);
+{runtimeScene.getScene().getVariables().getFromIndex(1).add(1);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "clue");
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "TimeClue");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "TimeClue");
@@ -1099,25 +1099,25 @@ isConditionTrue_0 = false;
 {let isConditionTrue_1 = false;
 isConditionTrue_0 = false;
 {
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("clueV")) == 1;
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1)) == 1;
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }
 }
 {
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("clueV")) == 3;
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1)) == 3;
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }
 }
 {
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("clueV")) == 5;
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1)) == 5;
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }
 }
 {
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("clueV")) >= 7;
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1)) >= 7;
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }
@@ -1143,7 +1143,7 @@ gdjs.S_46_32Roque_32Cruzadas_322Code.eventsList4(runtimeScene);} //End of subeve
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("clueV")) == 2;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1)) == 2;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "clue") > 0.3;
@@ -1176,7 +1176,7 @@ gdjs.S_46_32Roque_32Cruzadas_322Code.eventsList5(runtimeScene);} //End of subeve
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("clueV")) == 4;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1)) == 4;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "clue") > 0.3;
@@ -1209,7 +1209,7 @@ gdjs.S_46_32Roque_32Cruzadas_322Code.eventsList6(runtimeScene);} //End of subeve
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("clueV")) == 6;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1)) == 6;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "clue") > 0.3;
@@ -1466,7 +1466,7 @@ isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2);
 for (var i = 0, k = 0, l = gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2.length;i<l;++i) {
-    if ( gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2[i].getText() == gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("answer")) ) {
+    if ( gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2[i].getText() == gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)) ) {
         isConditionTrue_1 = true;
         gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2[k] = gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2[i];
         ++k;
@@ -1484,7 +1484,7 @@ if(isConditionTrue_1) {
 {
 gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2);
 for (var i = 0, k = 0, l = gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2.length;i<l;++i) {
-    if ( gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2[i].getText() == gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("answer")) + " " ) {
+    if ( gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2[i].getText() == gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)) + " " ) {
         isConditionTrue_1 = true;
         gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2[k] = gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2[i];
         ++k;
@@ -1502,7 +1502,7 @@ if(isConditionTrue_1) {
 {
 gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2);
 for (var i = 0, k = 0, l = gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2.length;i<l;++i) {
-    if ( (gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2[i].getText()).includes(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("answer"))) ) {
+    if ( (gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2[i].getText()).includes(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0))) ) {
         isConditionTrue_1 = true;
         gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2[k] = gdjs.S_46_32Roque_32Cruzadas_322Code.GDanswerObjects2[i];
         ++k;
