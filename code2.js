@@ -60,7 +60,7 @@ gdjs.LoginCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17954964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17562596);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 0, 1);
@@ -79,7 +79,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18796348);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17577108);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.auth.anonymSignIn(runtimeScene.getScene().getVariables().get("error"));
@@ -95,7 +95,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18822348);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17563012);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -123,7 +123,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18824604);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17425516);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.getField("Timer", "Hour", runtimeScene.getScene().getVariables().get("hour"), runtimeScene.getScene().getVariables().get("error"));
@@ -136,8 +136,6 @@ if (isConditionTrue_0) {
 }{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Language", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7))), runtimeScene.getScene().getVariables().get("error"));
 }{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1))), runtimeScene.getScene().getVariables().get("error"));
 }{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Progress", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2))), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Equipa", runtimeScene.getScene().getVariables().getFromIndex(3).getAsString(), runtimeScene.getScene().getVariables().get("error"));
-}{runtimeScene.getGame().getVariables().getFromIndex(9).setString(runtimeScene.getScene().getVariables().getFromIndex(3).getAsString());
 }}
 
 }
@@ -384,7 +382,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9470548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17563740);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -400,7 +398,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9475204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17573284);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -419,49 +417,49 @@ isConditionTrue_0 = false;
 {let isConditionTrue_1 = false;
 isConditionTrue_0 = false;
 {
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1101";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1101";
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }
 }
 {
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1202";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1202";
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }
 }
 {
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1303";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1303";
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }
 }
 {
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1404";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1404";
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }
 }
 {
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1505";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1505";
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }
 }
 {
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1606";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1606";
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }
 }
 {
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1707";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1707";
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }
 }
 {
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1808";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1808";
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }
@@ -476,7 +474,7 @@ gdjs.copyArray(gdjs.LoginCode.GDnameObjects1, gdjs.LoginCode.GDnameObjects2);
 
 gdjs.copyArray(gdjs.LoginCode.GDokObjects1, gdjs.LoginCode.GDokObjects2);
 
-{runtimeScene.getScene().getVariables().getFromIndex(3).setString("");
+{runtimeScene.getScene().getVariables().get("equipa").setString("");
 }{for(var i = 0, len = gdjs.LoginCode.GDcodeObjects2.length ;i < len;++i) {
     gdjs.LoginCode.GDcodeObjects2[i].setDisabled(true);
 }
@@ -506,7 +504,7 @@ gdjs.copyArray(gdjs.LoginCode.GDokObjects1, gdjs.LoginCode.GDokObjects2);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9483868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17564572);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -547,7 +545,7 @@ gdjs.copyArray(runtimeScene.getObjects("wrong"), gdjs.LoginCode.GDwrongObjects1)
 }{for(var i = 0, len = gdjs.LoginCode.GDemptyObjects1.length ;i < len;++i) {
     gdjs.LoginCode.GDemptyObjects1[i].hide();
 }
-}{runtimeScene.getScene().getVariables().getFromIndex(3).setString("");
+}{runtimeScene.getScene().getVariables().get("equipa").setString("");
 }{runtimeScene.getScene().getVariables().get("amarela").setNumber(3);
 }{runtimeScene.getScene().getVariables().get("azul").setNumber(3);
 }{runtimeScene.getScene().getVariables().get("castanha").setNumber(3);
@@ -729,7 +727,7 @@ gdjs.LoginCode.GDokObjects1.length = k;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("code"), gdjs.LoginCode.GDcodeObjects1);
-{runtimeScene.getScene().getVariables().getFromIndex(3).setString((( gdjs.LoginCode.GDcodeObjects1.length === 0 ) ? "" :gdjs.LoginCode.GDcodeObjects1[0].getText()));
+{runtimeScene.getScene().getVariables().get("equipa").setString((( gdjs.LoginCode.GDcodeObjects1.length === 0 ) ? "" :gdjs.LoginCode.GDcodeObjects1[0].getText()));
 }
 { //Subevents
 gdjs.LoginCode.eventsList1(runtimeScene);} //End of subevents
@@ -754,7 +752,7 @@ for (var i = 0, k = 0, l = gdjs.LoginCode.GDnameObjects1.length;i<l;++i) {
 gdjs.LoginCode.GDnameObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1101";
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1101";
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.hasVariable("UID/Amarela", runtimeScene.getScene().getVariables().get("amarela"), runtimeScene.getScene().getVariables().get("error"));
@@ -809,7 +807,7 @@ for (var i = 0, k = 0, l = gdjs.LoginCode.GDnameObjects1.length;i<l;++i) {
 gdjs.LoginCode.GDnameObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1202";
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1202";
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.hasVariable("UID/Azul", runtimeScene.getScene().getVariables().get("azul"), runtimeScene.getScene().getVariables().get("error"));
@@ -864,7 +862,7 @@ for (var i = 0, k = 0, l = gdjs.LoginCode.GDnameObjects1.length;i<l;++i) {
 gdjs.LoginCode.GDnameObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1303";
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1303";
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.hasVariable("UID/Castanha", runtimeScene.getScene().getVariables().get("castanha"), runtimeScene.getScene().getVariables().get("error"));
@@ -919,7 +917,7 @@ for (var i = 0, k = 0, l = gdjs.LoginCode.GDnameObjects1.length;i<l;++i) {
 gdjs.LoginCode.GDnameObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1404";
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1404";
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.hasVariable("UID/Rosa", runtimeScene.getScene().getVariables().get("rosa"), runtimeScene.getScene().getVariables().get("error"));
@@ -974,7 +972,7 @@ for (var i = 0, k = 0, l = gdjs.LoginCode.GDnameObjects1.length;i<l;++i) {
 gdjs.LoginCode.GDnameObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1505";
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1505";
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.hasVariable("UID/Roxa", runtimeScene.getScene().getVariables().get("roxa"), runtimeScene.getScene().getVariables().get("error"));
@@ -1029,7 +1027,7 @@ for (var i = 0, k = 0, l = gdjs.LoginCode.GDnameObjects1.length;i<l;++i) {
 gdjs.LoginCode.GDnameObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1606";
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1606";
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.hasVariable("UID/Verde", runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().get("error"));
@@ -1084,7 +1082,7 @@ for (var i = 0, k = 0, l = gdjs.LoginCode.GDnameObjects1.length;i<l;++i) {
 gdjs.LoginCode.GDnameObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1707";
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1707";
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.hasVariable("UID/AzulClara", runtimeScene.getScene().getVariables().getFromIndex(2), runtimeScene.getScene().getVariables().get("error"));
@@ -1139,7 +1137,7 @@ for (var i = 0, k = 0, l = gdjs.LoginCode.GDnameObjects1.length;i<l;++i) {
 gdjs.LoginCode.GDnameObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) == "1808";
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) == "1808";
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.hasVariable("UID/Vermelha", runtimeScene.getScene().getVariables().getFromIndex(1), runtimeScene.getScene().getVariables().get("error"));
@@ -1291,31 +1289,31 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 {let isConditionTrue_1 = false;
 isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) != "";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) != "";
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) != "1101";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) != "1101";
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) != "1202";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) != "1202";
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) != "1303";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) != "1303";
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) != "1404";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) != "1404";
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) != "1505";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) != "1505";
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) != "1606";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) != "1606";
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) != "1707";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) != "1707";
 if (isConditionTrue_1) {
 isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)) != "1808";
+isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("equipa")) != "1808";
 }
 }
 }
@@ -1331,7 +1329,7 @@ gdjs.copyArray(runtimeScene.getObjects("code"), gdjs.LoginCode.GDcodeObjects1);
 gdjs.copyArray(runtimeScene.getObjects("name"), gdjs.LoginCode.GDnameObjects1);
 gdjs.copyArray(runtimeScene.getObjects("ok"), gdjs.LoginCode.GDokObjects1);
 gdjs.copyArray(runtimeScene.getObjects("wrong"), gdjs.LoginCode.GDwrongObjects1);
-{runtimeScene.getScene().getVariables().getFromIndex(3).setString("");
+{runtimeScene.getScene().getVariables().get("equipa").setString("");
 }{for(var i = 0, len = gdjs.LoginCode.GDcodeObjects1.length ;i < len;++i) {
     gdjs.LoginCode.GDcodeObjects1[i].setDisabled(true);
 }
@@ -1397,7 +1395,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("empty"), gdjs.LoginCode.GDemptyObjects1);
 gdjs.copyArray(runtimeScene.getObjects("name"), gdjs.LoginCode.GDnameObjects1);
 /* Reuse gdjs.LoginCode.GDokObjects1 */
-{runtimeScene.getScene().getVariables().getFromIndex(3).setString("");
+{runtimeScene.getScene().getVariables().get("equipa").setString("");
 }{for(var i = 0, len = gdjs.LoginCode.GDcodeObjects1.length ;i < len;++i) {
     gdjs.LoginCode.GDcodeObjects1[i].setDisabled(true);
 }
