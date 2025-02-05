@@ -66,7 +66,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16792940);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19639284);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
@@ -83,7 +83,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16788116);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19634460);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(120 - (((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("hour_finish")) - gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5))) * 60) + gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("min_finish")) - gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6))));
@@ -102,7 +102,7 @@ gdjs.FimCode.eventsList0(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16782964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19629324);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
@@ -138,7 +138,7 @@ gdjs.FimCode.eventsList1(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16797868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19644212);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "PT_Presente.MP3", 2, true, 100, 1);
@@ -154,7 +154,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16799316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19645660);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "gift_EN.MP3", 2, true, 100, 1);
@@ -170,7 +170,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16800748);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19647092);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "FR_Presente.AAC", 1, true, 100, 1);
@@ -186,7 +186,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16802196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19648540);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "ES_Presente.AAC", 1, true, 100, 1);
@@ -264,7 +264,7 @@ gdjs.FimCode.eventsList6(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16811540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19657884);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "tada-fanfare-a-6313.mp3", false, 100, 1);
@@ -280,7 +280,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16813468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19659812);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "fairy-dust-shimmer-1-175611.mp3", false, 100, 1);
@@ -296,7 +296,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16815884);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19662228);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).add(20);
@@ -353,7 +353,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16820964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19667308);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
