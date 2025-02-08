@@ -167,7 +167,7 @@ gdjs.copyArray(runtimeScene.getObjects("loading"), gdjs.StartCode.GDloadingObjec
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18469164);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18177596);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.getField(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)), "Score", runtimeScene.getScene().getVariables().getFromIndex(2), runtimeScene.getScene().getVariables().getFromIndex(4));
