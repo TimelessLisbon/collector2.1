@@ -52,55 +52,7 @@ gdjs.Brasileira_32EnigmaCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{let isConditionTrue_1 = false;
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_amarela"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_azul"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_castanha"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_rosa"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_roxa"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_verde"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_vermelha"));
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("UID_atual")) != gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("UID_azulclara"));
-}
-}
-}
-}
-}
-}
-}
-isConditionTrue_0 = isConditionTrue_1;
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Logout", false);
-}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "UID");
-}}
-
-}
-
-
-};gdjs.Brasileira_32EnigmaCode.eventsList1 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19525212);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19527460);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Clues", gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("clue"))), runtimeScene.getScene().getVariables().get("error"));
@@ -118,14 +70,14 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Brasileira_32EnigmaCode.eventsList2 = function(runtimeScene) {
+};gdjs.Brasileira_32EnigmaCode.eventsList1 = function(runtimeScene) {
 
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19544380);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19546628);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.Brasileira_32EnigmaCode.GDanswerObjects1, gdjs.Brasileira_32EnigmaCode.GDanswerObjects2);
@@ -142,7 +94,7 @@ gdjs.copyArray(gdjs.Brasileira_32EnigmaCode.GDanswerObjects1, gdjs.Brasileira_32
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19546076);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19548324);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -151,12 +103,40 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Brasileira_32EnigmaCode.asyncCallback19549716 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Brasileira_32EnigmaCode.asyncCallback19551964 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Brasileira_32EnigmaCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("answer"), gdjs.Brasileira_32EnigmaCode.GDanswerObjects3);
 
 {for(var i = 0, len = gdjs.Brasileira_32EnigmaCode.GDanswerObjects3.length ;i < len;++i) {
     gdjs.Brasileira_32EnigmaCode.GDanswerObjects3[i].setText("");
+}
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "clue");
+}{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "clue");
+}gdjs.Brasileira_32EnigmaCode.localVariables.length = 0;
+}
+gdjs.Brasileira_32EnigmaCode.eventsList2 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.Brasileira_32EnigmaCode.localVariables);
+for (const obj of gdjs.Brasileira_32EnigmaCode.GDanswerObjects2) asyncObjectsList.addObject("answer", obj);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Brasileira_32EnigmaCode.asyncCallback19551964(runtimeScene, asyncObjectsList)));
+}
+}
+
+}
+
+
+};gdjs.Brasileira_32EnigmaCode.asyncCallback19553764 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Brasileira_32EnigmaCode.localVariables);
+gdjs.copyArray(asyncObjectsList.getObjects("answer"), gdjs.Brasileira_32EnigmaCode.GDanswerObjects2);
+
+{for(var i = 0, len = gdjs.Brasileira_32EnigmaCode.GDanswerObjects2.length ;i < len;++i) {
+    gdjs.Brasileira_32EnigmaCode.GDanswerObjects2[i].setText("");
 }
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "clue");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "clue");
@@ -171,50 +151,22 @@ gdjs.Brasileira_32EnigmaCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Brasileira_32EnigmaCode.localVariables);
-for (const obj of gdjs.Brasileira_32EnigmaCode.GDanswerObjects2) asyncObjectsList.addObject("answer", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Brasileira_32EnigmaCode.asyncCallback19549716(runtimeScene, asyncObjectsList)));
-}
-}
-
-}
-
-
-};gdjs.Brasileira_32EnigmaCode.asyncCallback19551516 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.Brasileira_32EnigmaCode.localVariables);
-gdjs.copyArray(asyncObjectsList.getObjects("answer"), gdjs.Brasileira_32EnigmaCode.GDanswerObjects2);
-
-{for(var i = 0, len = gdjs.Brasileira_32EnigmaCode.GDanswerObjects2.length ;i < len;++i) {
-    gdjs.Brasileira_32EnigmaCode.GDanswerObjects2[i].setText("");
-}
-}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "clue");
-}{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "clue");
-}gdjs.Brasileira_32EnigmaCode.localVariables.length = 0;
-}
-gdjs.Brasileira_32EnigmaCode.eventsList4 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.Brasileira_32EnigmaCode.localVariables);
 for (const obj of gdjs.Brasileira_32EnigmaCode.GDanswerObjects1) asyncObjectsList.addObject("answer", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Brasileira_32EnigmaCode.asyncCallback19551516(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Brasileira_32EnigmaCode.asyncCallback19553764(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Brasileira_32EnigmaCode.eventsList5 = function(runtimeScene) {
+};gdjs.Brasileira_32EnigmaCode.eventsList4 = function(runtimeScene) {
 
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19548132);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19550380);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -252,7 +204,7 @@ gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.Brasileira_32EnigmaCode.G
 }
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList3(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -287,8 +239,24 @@ gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.Brasileira_32EnigmaCode.G
 }
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList4(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList3(runtimeScene);} //End of subevents
 }
+
+}
+
+
+};gdjs.Brasileira_32EnigmaCode.eventsList5 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19556124);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
+}}
 
 }
 
@@ -300,7 +268,7 @@ gdjs.Brasileira_32EnigmaCode.eventsList4(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19553876);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19558084);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -316,7 +284,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19555836);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19560044);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -332,10 +300,10 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19557796);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19561844);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
 }}
 
 }
@@ -348,10 +316,10 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19559596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19565084);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
 }}
 
 }
@@ -364,10 +332,10 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19562836);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19564932);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
 }}
 
 }
@@ -380,23 +348,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19562684);
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
-}}
-
-}
-
-
-};gdjs.Brasileira_32EnigmaCode.eventsList12 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19567724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19569972);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -470,6 +422,22 @@ if (isConditionTrue_0) {
 }
 
 
+};gdjs.Brasileira_32EnigmaCode.eventsList12 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19573972);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
+}}
+
+}
+
+
 };gdjs.Brasileira_32EnigmaCode.eventsList13 = function(runtimeScene) {
 
 {
@@ -477,10 +445,10 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19571724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19578052);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
+{runtimeScene.getGame().getVariables().getFromIndex(1).add(10);
 }}
 
 }
@@ -493,10 +461,10 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19575804);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19579380);
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(1).add(10);
+{runtimeScene.getGame().getVariables().getFromIndex(1).add(7);
 }}
 
 }
@@ -509,10 +477,10 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19577132);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19580468);
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(1).add(7);
+{runtimeScene.getGame().getVariables().getFromIndex(1).add(5);
 }}
 
 }
@@ -525,10 +493,10 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19578220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19581492);
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(1).add(5);
+{runtimeScene.getGame().getVariables().getFromIndex(1).add(3);
 }}
 
 }
@@ -541,23 +509,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19579244);
-}
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(1).add(3);
-}}
-
-}
-
-
-};gdjs.Brasileira_32EnigmaCode.eventsList18 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19573396);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19575644);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(1)), runtimeScene.getScene().getVariables().get("error"));
@@ -583,7 +535,7 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getSce
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList14(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList13(runtimeScene);} //End of subevents
 }
 
 }
@@ -602,7 +554,7 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getSce
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList15(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList14(runtimeScene);} //End of subevents
 }
 
 }
@@ -621,7 +573,7 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getSce
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList16(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList15(runtimeScene);} //End of subevents
 }
 
 }
@@ -636,7 +588,7 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getSce
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList17(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList16(runtimeScene);} //End of subevents
 }
 
 }
@@ -669,6 +621,23 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Brasileira_32EnigmaCo
 }
 
 
+};gdjs.Brasileira_32EnigmaCode.eventsList18 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19618564);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "", runtimeScene.getScene().getVariables().get("error"));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().get("error"));
+}}
+
+}
+
+
 };gdjs.Brasileira_32EnigmaCode.eventsList19 = function(runtimeScene) {
 
 {
@@ -676,11 +645,10 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Brasileira_32EnigmaCo
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19616316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19624196);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "", runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().get("error"));
+{gdjs.evtTools.sound.playSound(runtimeScene, "message-incoming-132126.mp3", false, 100, 1);
 }}
 
 }
@@ -693,10 +661,11 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19621948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19626308);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "message-incoming-132126.mp3", false, 100, 1);
+{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().get("error"));
+}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "LIDA", runtimeScene.getScene().getVariables().get("error"));
 }}
 
 }
@@ -707,19 +676,16 @@ if (isConditionTrue_0) {
 {
 
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19624060);
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ClueGM", "", runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "EstadoClueGM", "LIDA", runtimeScene.getScene().getVariables().get("error"));
-}}
 
 }
 
 
-};gdjs.Brasileira_32EnigmaCode.eventsList22 = function(runtimeScene) {
+{
+
+
+
+}
+
 
 {
 
@@ -731,47 +697,6 @@ if (isConditionTrue_0) {
 {
 
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "UID");
-}{gdjs.evtsExt__Geolocation__LocatePlayer.func(runtimeScene, runtimeScene.getScene().getVariables().get("GPS"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-{runtimeScene.getGame().getVariables().get("UID_atual").setString(gdjs.evtTools.firebaseTools.auth.userManagement.getUID());
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Amarela", runtimeScene.getScene().getVariables().get("UID_amarela"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Azul", runtimeScene.getScene().getVariables().get("UID_azul"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Castanha", runtimeScene.getScene().getVariables().get("UID_castanha"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Rosa", runtimeScene.getScene().getVariables().get("UID_rosa"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Roxa", runtimeScene.getScene().getVariables().get("UID_roxa"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Verde", runtimeScene.getScene().getVariables().get("UID_verde"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "Vermelha", runtimeScene.getScene().getVariables().get("UID_vermelha"), runtimeScene.getScene().getVariables().get("error"));
-}{gdjs.evtTools.firebaseTools.database.getField("UID", "AzulClara", runtimeScene.getScene().getVariables().get("UID_azulclara"), runtimeScene.getScene().getVariables().get("error"));
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "UID") > 5;
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList0(runtimeScene);} //End of subevents
-}
 
 }
 
@@ -832,7 +757,7 @@ gdjs.copyArray(runtimeScene.getObjects("ok"), gdjs.Brasileira_32EnigmaCode.GDokO
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "next scene");
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 }
@@ -1166,7 +1091,7 @@ if (isConditionTrue_0) {
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "clue");
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -1213,7 +1138,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList5(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 }
@@ -1246,7 +1171,7 @@ gdjs.copyArray(runtimeScene.getObjects("clue"), gdjs.Brasileira_32EnigmaCode.GDc
 }
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList6(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList5(runtimeScene);} //End of subevents
 }
 
 }
@@ -1279,7 +1204,7 @@ gdjs.copyArray(runtimeScene.getObjects("clue"), gdjs.Brasileira_32EnigmaCode.GDc
 }
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList7(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList6(runtimeScene);} //End of subevents
 }
 
 }
@@ -1312,7 +1237,7 @@ gdjs.copyArray(runtimeScene.getObjects("clue"), gdjs.Brasileira_32EnigmaCode.GDc
 }
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList8(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList7(runtimeScene);} //End of subevents
 }
 
 }
@@ -1357,7 +1282,7 @@ gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.Brasileira_32EnigmaCode.G
 }
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList9(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList8(runtimeScene);} //End of subevents
 }
 
 }
@@ -1453,7 +1378,7 @@ gdjs.copyArray(runtimeScene.getObjects("digits"), gdjs.Brasileira_32EnigmaCode.G
 }
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList10(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 }
@@ -1499,7 +1424,7 @@ gdjs.copyArray(runtimeScene.getObjects("answer"), gdjs.Brasileira_32EnigmaCode.G
 }{runtimeScene.getScene().getVariables().get("digits").setNumber(0);
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList11(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList10(runtimeScene);} //End of subevents
 }
 
 }
@@ -1608,7 +1533,7 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "next scene");
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList12(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList11(runtimeScene);} //End of subevents
 }
 
 }
@@ -1632,7 +1557,7 @@ if (isConditionTrue_0) {
 }{runtimeScene.getScene().getVariables().get("next").setString("");
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList13(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList12(runtimeScene);} //End of subevents
 }
 
 }
@@ -1655,7 +1580,7 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)), gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList18(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList17(runtimeScene);} //End of subevents
 }
 
 }
@@ -1687,7 +1612,7 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.Brasileira_32EnigmaCode.
 }{runtimeScene.getScene().getVariables().get("clueGM").setString("");
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList19(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList18(runtimeScene);} //End of subevents
 }
 
 }
@@ -1785,7 +1710,7 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.Brasileira_32EnigmaCode.
 }
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList20(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList19(runtimeScene);} //End of subevents
 }
 
 }
@@ -1834,7 +1759,7 @@ gdjs.copyArray(runtimeScene.getObjects("pistagm"), gdjs.Brasileira_32EnigmaCode.
 }{runtimeScene.getScene().getVariables().get("cluegiven").setNumber(0);
 }
 { //Subevents
-gdjs.Brasileira_32EnigmaCode.eventsList21(runtimeScene);} //End of subevents
+gdjs.Brasileira_32EnigmaCode.eventsList20(runtimeScene);} //End of subevents
 }
 
 }
@@ -1885,7 +1810,7 @@ gdjs.Brasileira_32EnigmaCode.GDgmapsObjects1.length = 0;
 gdjs.Brasileira_32EnigmaCode.GDgmapsObjects2.length = 0;
 gdjs.Brasileira_32EnigmaCode.GDgmapsObjects3.length = 0;
 
-gdjs.Brasileira_32EnigmaCode.eventsList22(runtimeScene);
+gdjs.Brasileira_32EnigmaCode.eventsList21(runtimeScene);
 gdjs.Brasileira_32EnigmaCode.GDokObjects1.length = 0;
 gdjs.Brasileira_32EnigmaCode.GDokObjects2.length = 0;
 gdjs.Brasileira_32EnigmaCode.GDokObjects3.length = 0;
