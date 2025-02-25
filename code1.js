@@ -63,7 +63,7 @@ gdjs.LanguageCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18241292);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12383060);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 0, 1);
@@ -81,7 +81,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18244740);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12386812);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -97,7 +97,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18246500);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12389220);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -113,7 +113,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18248060);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12391524);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -129,7 +129,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18249852);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12393980);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -145,7 +145,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(7).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.LanguageCode.GDnoObjects2);
@@ -173,7 +173,7 @@ gdjs.copyArray(gdjs.LanguageCode.GDyesObjects1, gdjs.LanguageCode.GDyesObjects2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(7).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.LanguageCode.GDnoObjects2);
@@ -201,7 +201,7 @@ gdjs.copyArray(gdjs.LanguageCode.GDyesObjects1, gdjs.LanguageCode.GDyesObjects2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(7).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber() == 2);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.LanguageCode.GDnoObjects2);
@@ -229,7 +229,7 @@ gdjs.copyArray(gdjs.LanguageCode.GDyesObjects1, gdjs.LanguageCode.GDyesObjects2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(7).getAsNumber() == 3);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber() == 3);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.LanguageCode.GDnoObjects2);
@@ -257,7 +257,7 @@ gdjs.copyArray(gdjs.LanguageCode.GDyesObjects1, gdjs.LanguageCode.GDyesObjects2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18256916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12403684);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "notification-140376.mp3", false, 100, 1);
@@ -273,7 +273,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18258476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12405900);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -289,7 +289,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18260564);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12407948);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -362,7 +362,7 @@ for (var i = 0, k = 0, l = gdjs.LanguageCode.GDportuguesObjects1.length;i<l;++i)
 gdjs.LanguageCode.GDportuguesObjects1.length = k;
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(0);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "nextscene");
 }
 { //Subevents
@@ -399,7 +399,7 @@ for (var i = 0, k = 0, l = gdjs.LanguageCode.GDinglesObjects1.length;i<l;++i) {
 gdjs.LanguageCode.GDinglesObjects1.length = k;
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(1);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "nextscene");
 }
 { //Subevents
@@ -436,7 +436,7 @@ for (var i = 0, k = 0, l = gdjs.LanguageCode.GDfrancesObjects1.length;i<l;++i) {
 gdjs.LanguageCode.GDfrancesObjects1.length = k;
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(2);
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(2);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "nextscene");
 }
 { //Subevents
@@ -473,7 +473,7 @@ for (var i = 0, k = 0, l = gdjs.LanguageCode.GDespanholObjects1.length;i<l;++i) 
 gdjs.LanguageCode.GDespanholObjects1.length = k;
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(3);
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(3);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "nextscene");
 }
 { //Subevents
@@ -516,7 +516,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("confirmacao"), gdjs.LanguageCode.GDconfirmacaoObjects1);
 {gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "nextscene");
 }{for(var i = 0, len = gdjs.LanguageCode.GDconfirmacaoObjects1.length ;i < len;++i) {
-    gdjs.LanguageCode.GDconfirmacaoObjects1[i].getBehavior("Animation").setAnimationIndex(runtimeScene.getGame().getVariables().getFromIndex(7).getAsNumber());
+    gdjs.LanguageCode.GDconfirmacaoObjects1[i].getBehavior("Animation").setAnimationIndex(runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber());
 }
 }{for(var i = 0, len = gdjs.LanguageCode.GDconfirmacaoObjects1.length ;i < len;++i) {
     gdjs.LanguageCode.GDconfirmacaoObjects1[i].hide(false);
