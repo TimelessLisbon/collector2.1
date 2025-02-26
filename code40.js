@@ -33,7 +33,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("fundo"), gdjs.LogoutCode.GDfundoObjects1);
 {for(var i = 0, len = gdjs.LogoutCode.GDfundoObjects1.length ;i < len;++i) {
-    gdjs.LogoutCode.GDfundoObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)));
+    gdjs.LogoutCode.GDfundoObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(8)));
 }
 }}
 

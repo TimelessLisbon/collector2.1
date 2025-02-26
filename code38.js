@@ -32,10 +32,31 @@ gdjs.LeaderboardCode.eventsList0 = function(runtimeScene) {
 {
 
 
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
 let isConditionTrue_0 = false;
 {
 {gdjs.evtTools.leaderboards.displayLeaderboard(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)), true);
-}{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(36);
+}{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(31);
 }}
 
 }
@@ -46,7 +67,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19976036);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16898244);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
