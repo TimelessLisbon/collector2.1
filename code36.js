@@ -51,7 +51,7 @@ gdjs.VideoCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17353732);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13420412);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -183,7 +183,7 @@ gdjs.copyArray(runtimeScene.getObjects("video_banner"), gdjs.VideoCode.GDvideo_9
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17493628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13879340);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -268,6 +268,7 @@ gdjs.copyArray(runtimeScene.getObjects("video_banner"), gdjs.VideoCode.GDvideo_9
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "next scene");
 }{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(29);
 }{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(0);
+}{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 1);
 }
 { //Subevents
 gdjs.VideoCode.eventsList0(runtimeScene);} //End of subevents
