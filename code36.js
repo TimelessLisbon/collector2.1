@@ -42,6 +42,12 @@ gdjs.VideoCode.GDtask_9595confirmationObjects3= [];
 gdjs.VideoCode.GDgmapsObjects1= [];
 gdjs.VideoCode.GDgmapsObjects2= [];
 gdjs.VideoCode.GDgmapsObjects3= [];
+gdjs.VideoCode.GDPepsiCoObjects1= [];
+gdjs.VideoCode.GDPepsiCoObjects2= [];
+gdjs.VideoCode.GDPepsiCoObjects3= [];
+gdjs.VideoCode.GDPepsiCo_9595CluesObjects1= [];
+gdjs.VideoCode.GDPepsiCo_9595CluesObjects2= [];
+gdjs.VideoCode.GDPepsiCo_9595CluesObjects3= [];
 
 
 gdjs.VideoCode.eventsList0 = function(runtimeScene) {
@@ -51,7 +57,7 @@ gdjs.VideoCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13420412);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20192596);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -183,7 +189,7 @@ gdjs.copyArray(runtimeScene.getObjects("video_banner"), gdjs.VideoCode.GDvideo_9
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13879340);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20179484);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -434,6 +440,12 @@ gdjs.VideoCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.VideoCode.GDgmapsObjects1.length = 0;
 gdjs.VideoCode.GDgmapsObjects2.length = 0;
 gdjs.VideoCode.GDgmapsObjects3.length = 0;
+gdjs.VideoCode.GDPepsiCoObjects1.length = 0;
+gdjs.VideoCode.GDPepsiCoObjects2.length = 0;
+gdjs.VideoCode.GDPepsiCoObjects3.length = 0;
+gdjs.VideoCode.GDPepsiCo_9595CluesObjects1.length = 0;
+gdjs.VideoCode.GDPepsiCo_9595CluesObjects2.length = 0;
+gdjs.VideoCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
 gdjs.VideoCode.eventsList3(runtimeScene);
 gdjs.VideoCode.GDVideo_9595ENObjects1.length = 0;
@@ -478,6 +490,12 @@ gdjs.VideoCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.VideoCode.GDgmapsObjects1.length = 0;
 gdjs.VideoCode.GDgmapsObjects2.length = 0;
 gdjs.VideoCode.GDgmapsObjects3.length = 0;
+gdjs.VideoCode.GDPepsiCoObjects1.length = 0;
+gdjs.VideoCode.GDPepsiCoObjects2.length = 0;
+gdjs.VideoCode.GDPepsiCoObjects3.length = 0;
+gdjs.VideoCode.GDPepsiCo_9595CluesObjects1.length = 0;
+gdjs.VideoCode.GDPepsiCo_9595CluesObjects2.length = 0;
+gdjs.VideoCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
 
 return;

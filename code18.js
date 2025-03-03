@@ -45,6 +45,12 @@ gdjs.Percurso_32BrasileiraCode.GDtask_9595confirmationObjects3= [];
 gdjs.Percurso_32BrasileiraCode.GDgmapsObjects1= [];
 gdjs.Percurso_32BrasileiraCode.GDgmapsObjects2= [];
 gdjs.Percurso_32BrasileiraCode.GDgmapsObjects3= [];
+gdjs.Percurso_32BrasileiraCode.GDPepsiCoObjects1= [];
+gdjs.Percurso_32BrasileiraCode.GDPepsiCoObjects2= [];
+gdjs.Percurso_32BrasileiraCode.GDPepsiCoObjects3= [];
+gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1= [];
+gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects2= [];
+gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects3= [];
 
 
 gdjs.Percurso_32BrasileiraCode.eventsList0 = function(runtimeScene) {
@@ -54,7 +60,7 @@ gdjs.Percurso_32BrasileiraCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13445812);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20386172);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(6));
@@ -71,7 +77,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32BrasileiraCode.userFunc0x1074738 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32BrasileiraCode.userFunc0xe480c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -95,7 +101,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32BrasileiraCode.userFunc0x1073c18 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32BrasileiraCode.userFunc0xc86e68 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -127,7 +133,7 @@ gdjs.Percurso_32BrasileiraCode.eventsList1 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20735732);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20405580);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "notification-140376.mp3", false, 100, 1);
@@ -143,7 +149,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20737548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20407396);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -181,7 +187,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32BrasileiraCode.GD
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20740004);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20409852);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -235,7 +241,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20746380);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20416228);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(6));
@@ -259,6 +265,24 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32Brasileira
 
 
 };gdjs.Percurso_32BrasileiraCode.eventsList5 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9331708);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(11).add(1);
+}}
+
+}
+
+
+};gdjs.Percurso_32BrasileiraCode.mapOfGDgdjs_9546Percurso_959532BrasileiraCode_9546GDPepsiCoObjects1Objects = Hashtable.newFrom({"PepsiCo": gdjs.Percurso_32BrasileiraCode.GDPepsiCoObjects1});
+gdjs.Percurso_32BrasileiraCode.mapOfGDgdjs_9546Percurso_959532BrasileiraCode_9546GDPepsiCoObjects1Objects = Hashtable.newFrom({"PepsiCo": gdjs.Percurso_32BrasileiraCode.GDPepsiCoObjects1});
+gdjs.Percurso_32BrasileiraCode.eventsList6 = function(runtimeScene) {
 
 {
 
@@ -571,7 +595,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32BrasileiraCode.GD
 {
 
 
-gdjs.Percurso_32BrasileiraCode.userFunc0x1074738(runtimeScene);
+gdjs.Percurso_32BrasileiraCode.userFunc0xe480c0(runtimeScene);
 
 }
 
@@ -579,7 +603,7 @@ gdjs.Percurso_32BrasileiraCode.userFunc0x1074738(runtimeScene);
 {
 
 
-gdjs.Percurso_32BrasileiraCode.userFunc0x1073c18(runtimeScene);
+gdjs.Percurso_32BrasileiraCode.userFunc0xc86e68(runtimeScene);
 
 }
 
@@ -872,6 +896,69 @@ gdjs.Percurso_32BrasileiraCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 
+{
+
+
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("PepsiCo_Clues"), gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1);
+{for(var i = 0, len = gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1.length ;i < len;++i) {
+    gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1[i].getBehavior("Animation").setAnimationIndex(runtimeScene.getGame().getVariables().getFromIndex(11).getAsNumber());
+}
+}{for(var i = 0, len = gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1.length ;i < len;++i) {
+    gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1[i].hide();
+}
+}
+{ //Subevents
+gdjs.Percurso_32BrasileiraCode.eventsList5(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("PepsiCo"), gdjs.Percurso_32BrasileiraCode.GDPepsiCoObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Percurso_32BrasileiraCode.mapOfGDgdjs_9546Percurso_959532BrasileiraCode_9546GDPepsiCoObjects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("PepsiCo_Clues"), gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1);
+{for(var i = 0, len = gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1.length ;i < len;++i) {
+    gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1[i].hide(false);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("PepsiCo"), gdjs.Percurso_32BrasileiraCode.GDPepsiCoObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Percurso_32BrasileiraCode.mapOfGDgdjs_9546Percurso_959532BrasileiraCode_9546GDPepsiCoObjects1Objects, runtimeScene, true, true);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("PepsiCo_Clues"), gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1);
+{for(var i = 0, len = gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1.length ;i < len;++i) {
+    gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1[i].hide();
+}
+}}
+
+}
+
+
 };
 
 gdjs.Percurso_32BrasileiraCode.func = function(runtimeScene) {
@@ -916,8 +1003,14 @@ gdjs.Percurso_32BrasileiraCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.Percurso_32BrasileiraCode.GDgmapsObjects1.length = 0;
 gdjs.Percurso_32BrasileiraCode.GDgmapsObjects2.length = 0;
 gdjs.Percurso_32BrasileiraCode.GDgmapsObjects3.length = 0;
+gdjs.Percurso_32BrasileiraCode.GDPepsiCoObjects1.length = 0;
+gdjs.Percurso_32BrasileiraCode.GDPepsiCoObjects2.length = 0;
+gdjs.Percurso_32BrasileiraCode.GDPepsiCoObjects3.length = 0;
+gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1.length = 0;
+gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects2.length = 0;
+gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
-gdjs.Percurso_32BrasileiraCode.eventsList5(runtimeScene);
+gdjs.Percurso_32BrasileiraCode.eventsList6(runtimeScene);
 gdjs.Percurso_32BrasileiraCode.GDnoObjects1.length = 0;
 gdjs.Percurso_32BrasileiraCode.GDnoObjects2.length = 0;
 gdjs.Percurso_32BrasileiraCode.GDnoObjects3.length = 0;
@@ -957,6 +1050,12 @@ gdjs.Percurso_32BrasileiraCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.Percurso_32BrasileiraCode.GDgmapsObjects1.length = 0;
 gdjs.Percurso_32BrasileiraCode.GDgmapsObjects2.length = 0;
 gdjs.Percurso_32BrasileiraCode.GDgmapsObjects3.length = 0;
+gdjs.Percurso_32BrasileiraCode.GDPepsiCoObjects1.length = 0;
+gdjs.Percurso_32BrasileiraCode.GDPepsiCoObjects2.length = 0;
+gdjs.Percurso_32BrasileiraCode.GDPepsiCoObjects3.length = 0;
+gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects1.length = 0;
+gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects2.length = 0;
+gdjs.Percurso_32BrasileiraCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
 
 return;

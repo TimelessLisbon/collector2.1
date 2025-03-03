@@ -22,9 +22,13 @@ gdjs.CoordenadasCode.GDtask_9595confirmationObjects1= [];
 gdjs.CoordenadasCode.GDtask_9595confirmationObjects2= [];
 gdjs.CoordenadasCode.GDgmapsObjects1= [];
 gdjs.CoordenadasCode.GDgmapsObjects2= [];
+gdjs.CoordenadasCode.GDPepsiCoObjects1= [];
+gdjs.CoordenadasCode.GDPepsiCoObjects2= [];
+gdjs.CoordenadasCode.GDPepsiCo_9595CluesObjects1= [];
+gdjs.CoordenadasCode.GDPepsiCo_9595CluesObjects2= [];
 
 
-gdjs.CoordenadasCode.userFunc0xc07b08 = function GDJSInlineCode(runtimeScene) {
+gdjs.CoordenadasCode.userFunc0xa97988 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -48,7 +52,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.CoordenadasCode.userFunc0x13524f8 = function GDJSInlineCode(runtimeScene) {
+gdjs.CoordenadasCode.userFunc0xaa2418 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -102,7 +106,7 @@ gdjs.copyArray(runtimeScene.getObjects("longitude"), gdjs.CoordenadasCode.GDlong
 {
 
 
-gdjs.CoordenadasCode.userFunc0xc07b08(runtimeScene);
+gdjs.CoordenadasCode.userFunc0xa97988(runtimeScene);
 
 }
 
@@ -110,7 +114,7 @@ gdjs.CoordenadasCode.userFunc0xc07b08(runtimeScene);
 {
 
 
-gdjs.CoordenadasCode.userFunc0x13524f8(runtimeScene);
+gdjs.CoordenadasCode.userFunc0xaa2418(runtimeScene);
 
 }
 
@@ -160,6 +164,10 @@ gdjs.CoordenadasCode.GDtask_9595confirmationObjects1.length = 0;
 gdjs.CoordenadasCode.GDtask_9595confirmationObjects2.length = 0;
 gdjs.CoordenadasCode.GDgmapsObjects1.length = 0;
 gdjs.CoordenadasCode.GDgmapsObjects2.length = 0;
+gdjs.CoordenadasCode.GDPepsiCoObjects1.length = 0;
+gdjs.CoordenadasCode.GDPepsiCoObjects2.length = 0;
+gdjs.CoordenadasCode.GDPepsiCo_9595CluesObjects1.length = 0;
+gdjs.CoordenadasCode.GDPepsiCo_9595CluesObjects2.length = 0;
 
 gdjs.CoordenadasCode.eventsList0(runtimeScene);
 gdjs.CoordenadasCode.GDlatitudeObjects1.length = 0;
@@ -184,6 +192,10 @@ gdjs.CoordenadasCode.GDtask_9595confirmationObjects1.length = 0;
 gdjs.CoordenadasCode.GDtask_9595confirmationObjects2.length = 0;
 gdjs.CoordenadasCode.GDgmapsObjects1.length = 0;
 gdjs.CoordenadasCode.GDgmapsObjects2.length = 0;
+gdjs.CoordenadasCode.GDPepsiCoObjects1.length = 0;
+gdjs.CoordenadasCode.GDPepsiCoObjects2.length = 0;
+gdjs.CoordenadasCode.GDPepsiCo_9595CluesObjects1.length = 0;
+gdjs.CoordenadasCode.GDPepsiCo_9595CluesObjects2.length = 0;
 
 
 return;

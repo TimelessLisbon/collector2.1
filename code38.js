@@ -18,6 +18,10 @@ gdjs.LeaderboardCode.GDtask_9595confirmationObjects1= [];
 gdjs.LeaderboardCode.GDtask_9595confirmationObjects2= [];
 gdjs.LeaderboardCode.GDgmapsObjects1= [];
 gdjs.LeaderboardCode.GDgmapsObjects2= [];
+gdjs.LeaderboardCode.GDPepsiCoObjects1= [];
+gdjs.LeaderboardCode.GDPepsiCoObjects2= [];
+gdjs.LeaderboardCode.GDPepsiCo_9595CluesObjects1= [];
+gdjs.LeaderboardCode.GDPepsiCo_9595CluesObjects2= [];
 
 
 gdjs.LeaderboardCode.eventsList0 = function(runtimeScene) {
@@ -67,7 +71,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13580796);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20270884);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().get("error"));
@@ -104,6 +108,10 @@ gdjs.LeaderboardCode.GDtask_9595confirmationObjects1.length = 0;
 gdjs.LeaderboardCode.GDtask_9595confirmationObjects2.length = 0;
 gdjs.LeaderboardCode.GDgmapsObjects1.length = 0;
 gdjs.LeaderboardCode.GDgmapsObjects2.length = 0;
+gdjs.LeaderboardCode.GDPepsiCoObjects1.length = 0;
+gdjs.LeaderboardCode.GDPepsiCoObjects2.length = 0;
+gdjs.LeaderboardCode.GDPepsiCo_9595CluesObjects1.length = 0;
+gdjs.LeaderboardCode.GDPepsiCo_9595CluesObjects2.length = 0;
 
 gdjs.LeaderboardCode.eventsList0(runtimeScene);
 gdjs.LeaderboardCode.GDscoreObjects1.length = 0;
@@ -124,6 +132,10 @@ gdjs.LeaderboardCode.GDtask_9595confirmationObjects1.length = 0;
 gdjs.LeaderboardCode.GDtask_9595confirmationObjects2.length = 0;
 gdjs.LeaderboardCode.GDgmapsObjects1.length = 0;
 gdjs.LeaderboardCode.GDgmapsObjects2.length = 0;
+gdjs.LeaderboardCode.GDPepsiCoObjects1.length = 0;
+gdjs.LeaderboardCode.GDPepsiCoObjects2.length = 0;
+gdjs.LeaderboardCode.GDPepsiCo_9595CluesObjects1.length = 0;
+gdjs.LeaderboardCode.GDPepsiCo_9595CluesObjects2.length = 0;
 
 
 return;

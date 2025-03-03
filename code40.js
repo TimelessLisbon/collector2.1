@@ -20,6 +20,10 @@ gdjs.LogoutCode.GDtask_9595confirmationObjects1= [];
 gdjs.LogoutCode.GDtask_9595confirmationObjects2= [];
 gdjs.LogoutCode.GDgmapsObjects1= [];
 gdjs.LogoutCode.GDgmapsObjects2= [];
+gdjs.LogoutCode.GDPepsiCoObjects1= [];
+gdjs.LogoutCode.GDPepsiCoObjects2= [];
+gdjs.LogoutCode.GDPepsiCo_9595CluesObjects1= [];
+gdjs.LogoutCode.GDPepsiCo_9595CluesObjects2= [];
 
 
 gdjs.LogoutCode.eventsList0 = function(runtimeScene) {
@@ -65,6 +69,10 @@ gdjs.LogoutCode.GDtask_9595confirmationObjects1.length = 0;
 gdjs.LogoutCode.GDtask_9595confirmationObjects2.length = 0;
 gdjs.LogoutCode.GDgmapsObjects1.length = 0;
 gdjs.LogoutCode.GDgmapsObjects2.length = 0;
+gdjs.LogoutCode.GDPepsiCoObjects1.length = 0;
+gdjs.LogoutCode.GDPepsiCoObjects2.length = 0;
+gdjs.LogoutCode.GDPepsiCo_9595CluesObjects1.length = 0;
+gdjs.LogoutCode.GDPepsiCo_9595CluesObjects2.length = 0;
 
 gdjs.LogoutCode.eventsList0(runtimeScene);
 gdjs.LogoutCode.GDfundoObjects1.length = 0;
@@ -87,6 +95,10 @@ gdjs.LogoutCode.GDtask_9595confirmationObjects1.length = 0;
 gdjs.LogoutCode.GDtask_9595confirmationObjects2.length = 0;
 gdjs.LogoutCode.GDgmapsObjects1.length = 0;
 gdjs.LogoutCode.GDgmapsObjects2.length = 0;
+gdjs.LogoutCode.GDPepsiCoObjects1.length = 0;
+gdjs.LogoutCode.GDPepsiCoObjects2.length = 0;
+gdjs.LogoutCode.GDPepsiCo_9595CluesObjects1.length = 0;
+gdjs.LogoutCode.GDPepsiCo_9595CluesObjects2.length = 0;
 
 
 return;
