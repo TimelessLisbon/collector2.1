@@ -77,7 +77,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32Belas_32ArtesCode.userFunc0xa02b90 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32Belas_32ArtesCode.userFunc0xe851b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -101,7 +101,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32Belas_32ArtesCode.userFunc0x9d5d50 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32Belas_32ArtesCode.userFunc0xe85220 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -264,25 +264,9 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32Belas_32Ar
 }
 
 
-};gdjs.Percurso_32Belas_32ArtesCode.eventsList5 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9331708);
-}
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(11).add(1);
-}}
-
-}
-
-
 };gdjs.Percurso_32Belas_32ArtesCode.mapOfGDgdjs_9546Percurso_959532Belas_959532ArtesCode_9546GDPepsiCoObjects1Objects = Hashtable.newFrom({"PepsiCo": gdjs.Percurso_32Belas_32ArtesCode.GDPepsiCoObjects1});
 gdjs.Percurso_32Belas_32ArtesCode.mapOfGDgdjs_9546Percurso_959532Belas_959532ArtesCode_9546GDPepsiCoObjects1Objects = Hashtable.newFrom({"PepsiCo": gdjs.Percurso_32Belas_32ArtesCode.GDPepsiCoObjects1});
-gdjs.Percurso_32Belas_32ArtesCode.eventsList6 = function(runtimeScene) {
+gdjs.Percurso_32Belas_32ArtesCode.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -595,7 +579,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32Belas_32ArtesCode
 {
 
 
-gdjs.Percurso_32Belas_32ArtesCode.userFunc0xa02b90(runtimeScene);
+gdjs.Percurso_32Belas_32ArtesCode.userFunc0xe851b0(runtimeScene);
 
 }
 
@@ -603,7 +587,7 @@ gdjs.Percurso_32Belas_32ArtesCode.userFunc0xa02b90(runtimeScene);
 {
 
 
-gdjs.Percurso_32Belas_32ArtesCode.userFunc0x9d5d50(runtimeScene);
+gdjs.Percurso_32Belas_32ArtesCode.userFunc0xe85220(runtimeScene);
 
 }
 
@@ -912,15 +896,65 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("PepsiCo_Clues"), gdjs.Percurso_32Belas_32ArtesCode.GDPepsiCo_9595CluesObjects1);
 {for(var i = 0, len = gdjs.Percurso_32Belas_32ArtesCode.GDPepsiCo_9595CluesObjects1.length ;i < len;++i) {
-    gdjs.Percurso_32Belas_32ArtesCode.GDPepsiCo_9595CluesObjects1[i].getBehavior("Animation").setAnimationIndex(runtimeScene.getGame().getVariables().getFromIndex(11).getAsNumber());
-}
-}{for(var i = 0, len = gdjs.Percurso_32Belas_32ArtesCode.GDPepsiCo_9595CluesObjects1.length ;i < len;++i) {
     gdjs.Percurso_32Belas_32ArtesCode.GDPepsiCo_9595CluesObjects1[i].hide();
 }
+}}
+
 }
-{ //Subevents
-gdjs.Percurso_32Belas_32ArtesCode.eventsList5(runtimeScene);} //End of subevents
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (gdjs.evtTools.runtimeScene.getSceneName(runtimeScene) == "Percurso S. Roque");
 }
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(0);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (gdjs.evtTools.runtimeScene.getSceneName(runtimeScene) == "Percurso Brasileira");
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(1);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (gdjs.evtTools.runtimeScene.getSceneName(runtimeScene) == "Percurso Belas Artes");
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(2);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("PepsiCo_Clues"), gdjs.Percurso_32Belas_32ArtesCode.GDPepsiCo_9595CluesObjects1);
+{for(var i = 0, len = gdjs.Percurso_32Belas_32ArtesCode.GDPepsiCo_9595CluesObjects1.length ;i < len;++i) {
+    gdjs.Percurso_32Belas_32ArtesCode.GDPepsiCo_9595CluesObjects1[i].getBehavior("Animation").setAnimationIndex(runtimeScene.getGame().getVariables().getFromIndex(11).getAsNumber());
+}
+}}
 
 }
 
@@ -1010,7 +1044,7 @@ gdjs.Percurso_32Belas_32ArtesCode.GDPepsiCo_9595CluesObjects1.length = 0;
 gdjs.Percurso_32Belas_32ArtesCode.GDPepsiCo_9595CluesObjects2.length = 0;
 gdjs.Percurso_32Belas_32ArtesCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
-gdjs.Percurso_32Belas_32ArtesCode.eventsList6(runtimeScene);
+gdjs.Percurso_32Belas_32ArtesCode.eventsList5(runtimeScene);
 gdjs.Percurso_32Belas_32ArtesCode.GDnoObjects1.length = 0;
 gdjs.Percurso_32Belas_32ArtesCode.GDnoObjects2.length = 0;
 gdjs.Percurso_32Belas_32ArtesCode.GDnoObjects3.length = 0;
