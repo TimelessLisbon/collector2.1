@@ -41,12 +41,6 @@ gdjs.Ginja_32FimCode.GDtask_9595confirmationObjects3= [];
 gdjs.Ginja_32FimCode.GDgmapsObjects1= [];
 gdjs.Ginja_32FimCode.GDgmapsObjects2= [];
 gdjs.Ginja_32FimCode.GDgmapsObjects3= [];
-gdjs.Ginja_32FimCode.GDPepsiCoObjects1= [];
-gdjs.Ginja_32FimCode.GDPepsiCoObjects2= [];
-gdjs.Ginja_32FimCode.GDPepsiCoObjects3= [];
-gdjs.Ginja_32FimCode.GDPepsiCo_9595CluesObjects1= [];
-gdjs.Ginja_32FimCode.GDPepsiCo_9595CluesObjects2= [];
-gdjs.Ginja_32FimCode.GDPepsiCo_9595CluesObjects3= [];
 
 
 gdjs.Ginja_32FimCode.eventsList0 = function(runtimeScene) {
@@ -56,7 +50,7 @@ gdjs.Ginja_32FimCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20335092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20386668);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(0));
@@ -80,7 +74,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20358436);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20410012);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -96,7 +90,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20360044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20411620);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -112,7 +106,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20363244);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20414820);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -195,7 +189,7 @@ gdjs.Ginja_32FimCode.eventsList3(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20365284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20416860);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -292,7 +286,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20370284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20421860);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(0));
@@ -1014,12 +1008,6 @@ gdjs.Ginja_32FimCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.Ginja_32FimCode.GDgmapsObjects1.length = 0;
 gdjs.Ginja_32FimCode.GDgmapsObjects2.length = 0;
 gdjs.Ginja_32FimCode.GDgmapsObjects3.length = 0;
-gdjs.Ginja_32FimCode.GDPepsiCoObjects1.length = 0;
-gdjs.Ginja_32FimCode.GDPepsiCoObjects2.length = 0;
-gdjs.Ginja_32FimCode.GDPepsiCoObjects3.length = 0;
-gdjs.Ginja_32FimCode.GDPepsiCo_9595CluesObjects1.length = 0;
-gdjs.Ginja_32FimCode.GDPepsiCo_9595CluesObjects2.length = 0;
-gdjs.Ginja_32FimCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
 gdjs.Ginja_32FimCode.eventsList8(runtimeScene);
 gdjs.Ginja_32FimCode.GDprox_9595localObjects1.length = 0;
@@ -1061,12 +1049,6 @@ gdjs.Ginja_32FimCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.Ginja_32FimCode.GDgmapsObjects1.length = 0;
 gdjs.Ginja_32FimCode.GDgmapsObjects2.length = 0;
 gdjs.Ginja_32FimCode.GDgmapsObjects3.length = 0;
-gdjs.Ginja_32FimCode.GDPepsiCoObjects1.length = 0;
-gdjs.Ginja_32FimCode.GDPepsiCoObjects2.length = 0;
-gdjs.Ginja_32FimCode.GDPepsiCoObjects3.length = 0;
-gdjs.Ginja_32FimCode.GDPepsiCo_9595CluesObjects1.length = 0;
-gdjs.Ginja_32FimCode.GDPepsiCo_9595CluesObjects2.length = 0;
-gdjs.Ginja_32FimCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
 
 return;

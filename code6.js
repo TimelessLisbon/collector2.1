@@ -45,12 +45,6 @@ gdjs.Percurso_32S_46_32RoqueCode.GDtask_9595confirmationObjects3= [];
 gdjs.Percurso_32S_46_32RoqueCode.GDgmapsObjects1= [];
 gdjs.Percurso_32S_46_32RoqueCode.GDgmapsObjects2= [];
 gdjs.Percurso_32S_46_32RoqueCode.GDgmapsObjects3= [];
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCoObjects1= [];
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCoObjects2= [];
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCoObjects3= [];
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1= [];
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects2= [];
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects3= [];
 
 
 gdjs.Percurso_32S_46_32RoqueCode.eventsList0 = function(runtimeScene) {
@@ -60,7 +54,7 @@ gdjs.Percurso_32S_46_32RoqueCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20386172);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20437748);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(3));
@@ -77,7 +71,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Percurso_32S_46_32RoqueCode.userFunc0xea2b18 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32S_46_32RoqueCode.userFunc0xc8f358 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -101,7 +95,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32S_46_32RoqueCode.userFunc0xea2b88 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32S_46_32RoqueCode.userFunc0xc8f3c8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -133,7 +127,7 @@ gdjs.Percurso_32S_46_32RoqueCode.eventsList1 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20405580);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20457156);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "notification-140376.mp3", false, 100, 1);
@@ -149,7 +143,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20407396);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20458972);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -187,7 +181,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32S_46_32RoqueCode.
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20409852);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20461428);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -241,7 +235,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20416228);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20467804);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(3));
@@ -264,9 +258,7 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Percurso_32S_46_32Roq
 }
 
 
-};gdjs.Percurso_32S_46_32RoqueCode.mapOfGDgdjs_9546Percurso_959532S_959546_959532RoqueCode_9546GDPepsiCoObjects1Objects = Hashtable.newFrom({"PepsiCo": gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCoObjects1});
-gdjs.Percurso_32S_46_32RoqueCode.mapOfGDgdjs_9546Percurso_959532S_959546_959532RoqueCode_9546GDPepsiCoObjects1Objects = Hashtable.newFrom({"PepsiCo": gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCoObjects1});
-gdjs.Percurso_32S_46_32RoqueCode.eventsList5 = function(runtimeScene) {
+};gdjs.Percurso_32S_46_32RoqueCode.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -579,7 +571,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32S_46_32RoqueCode.
 {
 
 
-gdjs.Percurso_32S_46_32RoqueCode.userFunc0xea2b18(runtimeScene);
+gdjs.Percurso_32S_46_32RoqueCode.userFunc0xc8f358(runtimeScene);
 
 }
 
@@ -587,7 +579,7 @@ gdjs.Percurso_32S_46_32RoqueCode.userFunc0xea2b18(runtimeScene);
 {
 
 
-gdjs.Percurso_32S_46_32RoqueCode.userFunc0xea2b88(runtimeScene);
+gdjs.Percurso_32S_46_32RoqueCode.userFunc0xc8f3c8(runtimeScene);
 
 }
 
@@ -880,119 +872,6 @@ gdjs.Percurso_32S_46_32RoqueCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 
-{
-
-
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("PepsiCo_Clues"), gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1);
-{for(var i = 0, len = gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1.length ;i < len;++i) {
-    gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1[i].hide();
-}
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (gdjs.evtTools.runtimeScene.getSceneName(runtimeScene) == "Percurso S. Roque");
-}
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(0);
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (gdjs.evtTools.runtimeScene.getSceneName(runtimeScene) == "Percurso Brasileira");
-}
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(1);
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (gdjs.evtTools.runtimeScene.getSceneName(runtimeScene) == "Percurso Belas Artes");
-}
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(2);
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-gdjs.copyArray(runtimeScene.getObjects("PepsiCo_Clues"), gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1);
-{for(var i = 0, len = gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1.length ;i < len;++i) {
-    gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1[i].getBehavior("Animation").setAnimationIndex(runtimeScene.getGame().getVariables().getFromIndex(11).getAsNumber());
-}
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("PepsiCo"), gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCoObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Percurso_32S_46_32RoqueCode.mapOfGDgdjs_9546Percurso_959532S_959546_959532RoqueCode_9546GDPepsiCoObjects1Objects, runtimeScene, true, false);
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("PepsiCo_Clues"), gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1);
-{for(var i = 0, len = gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1.length ;i < len;++i) {
-    gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1[i].hide(false);
-}
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("PepsiCo"), gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCoObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Percurso_32S_46_32RoqueCode.mapOfGDgdjs_9546Percurso_959532S_959546_959532RoqueCode_9546GDPepsiCoObjects1Objects, runtimeScene, true, true);
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("PepsiCo_Clues"), gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1);
-{for(var i = 0, len = gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1.length ;i < len;++i) {
-    gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1[i].hide();
-}
-}}
-
-}
-
-
 };
 
 gdjs.Percurso_32S_46_32RoqueCode.func = function(runtimeScene) {
@@ -1037,12 +916,6 @@ gdjs.Percurso_32S_46_32RoqueCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.Percurso_32S_46_32RoqueCode.GDgmapsObjects1.length = 0;
 gdjs.Percurso_32S_46_32RoqueCode.GDgmapsObjects2.length = 0;
 gdjs.Percurso_32S_46_32RoqueCode.GDgmapsObjects3.length = 0;
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCoObjects1.length = 0;
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCoObjects2.length = 0;
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCoObjects3.length = 0;
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1.length = 0;
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects2.length = 0;
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
 gdjs.Percurso_32S_46_32RoqueCode.eventsList5(runtimeScene);
 gdjs.Percurso_32S_46_32RoqueCode.GDnoObjects1.length = 0;
@@ -1084,12 +957,6 @@ gdjs.Percurso_32S_46_32RoqueCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.Percurso_32S_46_32RoqueCode.GDgmapsObjects1.length = 0;
 gdjs.Percurso_32S_46_32RoqueCode.GDgmapsObjects2.length = 0;
 gdjs.Percurso_32S_46_32RoqueCode.GDgmapsObjects3.length = 0;
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCoObjects1.length = 0;
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCoObjects2.length = 0;
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCoObjects3.length = 0;
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects1.length = 0;
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects2.length = 0;
-gdjs.Percurso_32S_46_32RoqueCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
 
 return;

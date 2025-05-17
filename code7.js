@@ -41,12 +41,6 @@ gdjs.S_46_32Roque_32EntradaCode.GDtask_9595confirmationObjects3= [];
 gdjs.S_46_32Roque_32EntradaCode.GDgmapsObjects1= [];
 gdjs.S_46_32Roque_32EntradaCode.GDgmapsObjects2= [];
 gdjs.S_46_32Roque_32EntradaCode.GDgmapsObjects3= [];
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCoObjects1= [];
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCoObjects2= [];
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCoObjects3= [];
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCo_9595CluesObjects1= [];
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCo_9595CluesObjects2= [];
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCo_9595CluesObjects3= [];
 
 
 gdjs.S_46_32Roque_32EntradaCode.eventsList0 = function(runtimeScene) {
@@ -56,7 +50,7 @@ gdjs.S_46_32Roque_32EntradaCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20492332);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20543908);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(5));
@@ -80,7 +74,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20506268);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20557844);
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.S_46_32Roque_32EntradaCode.GDanswerObjects1 */
@@ -98,7 +92,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20508164);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20559740);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
@@ -114,7 +108,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20511988);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20563564);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -144,7 +138,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20515900);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20567476);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(5));
@@ -794,12 +788,6 @@ gdjs.S_46_32Roque_32EntradaCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.S_46_32Roque_32EntradaCode.GDgmapsObjects1.length = 0;
 gdjs.S_46_32Roque_32EntradaCode.GDgmapsObjects2.length = 0;
 gdjs.S_46_32Roque_32EntradaCode.GDgmapsObjects3.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCoObjects1.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCoObjects2.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCoObjects3.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCo_9595CluesObjects1.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCo_9595CluesObjects2.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
 gdjs.S_46_32Roque_32EntradaCode.eventsList5(runtimeScene);
 gdjs.S_46_32Roque_32EntradaCode.GDokObjects1.length = 0;
@@ -841,12 +829,6 @@ gdjs.S_46_32Roque_32EntradaCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.S_46_32Roque_32EntradaCode.GDgmapsObjects1.length = 0;
 gdjs.S_46_32Roque_32EntradaCode.GDgmapsObjects2.length = 0;
 gdjs.S_46_32Roque_32EntradaCode.GDgmapsObjects3.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCoObjects1.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCoObjects2.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCoObjects3.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCo_9595CluesObjects1.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCo_9595CluesObjects2.length = 0;
-gdjs.S_46_32Roque_32EntradaCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
 
 return;

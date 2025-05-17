@@ -39,12 +39,6 @@ gdjs.StartCode.GDtask_9595confirmationObjects3= [];
 gdjs.StartCode.GDgmapsObjects1= [];
 gdjs.StartCode.GDgmapsObjects2= [];
 gdjs.StartCode.GDgmapsObjects3= [];
-gdjs.StartCode.GDPepsiCoObjects1= [];
-gdjs.StartCode.GDPepsiCoObjects2= [];
-gdjs.StartCode.GDPepsiCoObjects3= [];
-gdjs.StartCode.GDPepsiCo_9595CluesObjects1= [];
-gdjs.StartCode.GDPepsiCo_9595CluesObjects2= [];
-gdjs.StartCode.GDPepsiCo_9595CluesObjects3= [];
 
 
 gdjs.StartCode.eventsList0 = function(runtimeScene) {
@@ -113,7 +107,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18930924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18980980);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.getField(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString(), "Score", runtimeScene.getScene().getVariables().getFromIndex(2), runtimeScene.getScene().getVariables().getFromIndex(4));
@@ -882,12 +876,6 @@ gdjs.StartCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.StartCode.GDgmapsObjects1.length = 0;
 gdjs.StartCode.GDgmapsObjects2.length = 0;
 gdjs.StartCode.GDgmapsObjects3.length = 0;
-gdjs.StartCode.GDPepsiCoObjects1.length = 0;
-gdjs.StartCode.GDPepsiCoObjects2.length = 0;
-gdjs.StartCode.GDPepsiCoObjects3.length = 0;
-gdjs.StartCode.GDPepsiCo_9595CluesObjects1.length = 0;
-gdjs.StartCode.GDPepsiCo_9595CluesObjects2.length = 0;
-gdjs.StartCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
 gdjs.StartCode.eventsList5(runtimeScene);
 gdjs.StartCode.GDUIDObjects1.length = 0;
@@ -929,12 +917,6 @@ gdjs.StartCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.StartCode.GDgmapsObjects1.length = 0;
 gdjs.StartCode.GDgmapsObjects2.length = 0;
 gdjs.StartCode.GDgmapsObjects3.length = 0;
-gdjs.StartCode.GDPepsiCoObjects1.length = 0;
-gdjs.StartCode.GDPepsiCoObjects2.length = 0;
-gdjs.StartCode.GDPepsiCoObjects3.length = 0;
-gdjs.StartCode.GDPepsiCo_9595CluesObjects1.length = 0;
-gdjs.StartCode.GDPepsiCo_9595CluesObjects2.length = 0;
-gdjs.StartCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
 
 return;

@@ -47,12 +47,6 @@ gdjs.Brasileira_32FimCode.GDtask_9595confirmationObjects3= [];
 gdjs.Brasileira_32FimCode.GDgmapsObjects1= [];
 gdjs.Brasileira_32FimCode.GDgmapsObjects2= [];
 gdjs.Brasileira_32FimCode.GDgmapsObjects3= [];
-gdjs.Brasileira_32FimCode.GDPepsiCoObjects1= [];
-gdjs.Brasileira_32FimCode.GDPepsiCoObjects2= [];
-gdjs.Brasileira_32FimCode.GDPepsiCoObjects3= [];
-gdjs.Brasileira_32FimCode.GDPepsiCo_9595CluesObjects1= [];
-gdjs.Brasileira_32FimCode.GDPepsiCo_9595CluesObjects2= [];
-gdjs.Brasileira_32FimCode.GDPepsiCo_9595CluesObjects3= [];
 
 
 gdjs.Brasileira_32FimCode.eventsList0 = function(runtimeScene) {
@@ -164,7 +158,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20382876);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20434452);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -194,7 +188,7 @@ gdjs.copyArray(runtimeScene.getObjects("next_scene"), gdjs.Brasileira_32FimCode.
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20335092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20386668);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Track", gdjs.evtTools.runtimeScene.getSceneName(runtimeScene), runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -218,7 +212,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20358436);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20410012);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -234,7 +228,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20360044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20411620);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -250,7 +244,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20363244);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20414820);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -333,7 +327,7 @@ gdjs.Brasileira_32FimCode.eventsList6(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20365284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20416860);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -430,7 +424,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20370284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20421860);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.database.updateField(gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Score", runtimeScene.getGame().getVariables().getFromIndex(1).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -1305,12 +1299,6 @@ gdjs.Brasileira_32FimCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.Brasileira_32FimCode.GDgmapsObjects1.length = 0;
 gdjs.Brasileira_32FimCode.GDgmapsObjects2.length = 0;
 gdjs.Brasileira_32FimCode.GDgmapsObjects3.length = 0;
-gdjs.Brasileira_32FimCode.GDPepsiCoObjects1.length = 0;
-gdjs.Brasileira_32FimCode.GDPepsiCoObjects2.length = 0;
-gdjs.Brasileira_32FimCode.GDPepsiCoObjects3.length = 0;
-gdjs.Brasileira_32FimCode.GDPepsiCo_9595CluesObjects1.length = 0;
-gdjs.Brasileira_32FimCode.GDPepsiCo_9595CluesObjects2.length = 0;
-gdjs.Brasileira_32FimCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
 gdjs.Brasileira_32FimCode.eventsList11(runtimeScene);
 gdjs.Brasileira_32FimCode.GDprox_9595localObjects1.length = 0;
@@ -1358,12 +1346,6 @@ gdjs.Brasileira_32FimCode.GDtask_9595confirmationObjects3.length = 0;
 gdjs.Brasileira_32FimCode.GDgmapsObjects1.length = 0;
 gdjs.Brasileira_32FimCode.GDgmapsObjects2.length = 0;
 gdjs.Brasileira_32FimCode.GDgmapsObjects3.length = 0;
-gdjs.Brasileira_32FimCode.GDPepsiCoObjects1.length = 0;
-gdjs.Brasileira_32FimCode.GDPepsiCoObjects2.length = 0;
-gdjs.Brasileira_32FimCode.GDPepsiCoObjects3.length = 0;
-gdjs.Brasileira_32FimCode.GDPepsiCo_9595CluesObjects1.length = 0;
-gdjs.Brasileira_32FimCode.GDPepsiCo_9595CluesObjects2.length = 0;
-gdjs.Brasileira_32FimCode.GDPepsiCo_9595CluesObjects3.length = 0;
 
 
 return;
