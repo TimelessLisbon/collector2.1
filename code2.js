@@ -70,7 +70,18 @@ gdjs.copyArray(runtimeScene.getObjects("MyQRScanner"), gdjs.BOMB_32DEACTIVATOR2C
 {for(var i = 0, len = gdjs.BOMB_32DEACTIVATOR2Code.GDMyQRScannerObjects1.length ;i < len;++i) {
     gdjs.BOMB_32DEACTIVATOR2Code.GDMyQRScannerObjects1[i].SetBarcodeType("qr_code", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
-}{for(var i = 0, len = gdjs.BOMB_32DEACTIVATOR2Code.GDMyQRScannerObjects1.length ;i < len;++i) {
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("MyQRScanner"), gdjs.BOMB_32DEACTIVATOR2Code.GDMyQRScannerObjects1);
+{for(var i = 0, len = gdjs.BOMB_32DEACTIVATOR2Code.GDMyQRScannerObjects1.length ;i < len;++i) {
     gdjs.BOMB_32DEACTIVATOR2Code.GDMyQRScannerObjects1[i].setPosition((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.BOMB_32DEACTIVATOR2Code.GDMyQRScannerObjects1[i].getWidth())) / 2,(gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) - (gdjs.BOMB_32DEACTIVATOR2Code.GDMyQRScannerObjects1[i].getHeight())) / 2);
 }
 }}
