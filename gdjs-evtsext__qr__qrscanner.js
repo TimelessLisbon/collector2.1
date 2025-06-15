@@ -70,7 +70,7 @@ gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.onCreatedContext.GDObjectObjects
 gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.onCreatedContext.GDTextOnUnsupportedObjects1= [];
 
 
-gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.onCreatedContext.userFunc0x9ca078 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.onCreatedContext.userFunc0x8c1788 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 {
     /** @type {gdjs.CustomRuntimeObject} */
@@ -96,16 +96,14 @@ gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.onCreatedContext.userFunc0x9ca07
             self.videoElement = videoElement;
 
             const sprite = PIXI.Sprite.from(videoElement);
-            sprite.width = 400;   // Set desired width
-            sprite.height = 300;  // Set desired height
-
-            // Centering support (optional: you can reposition later from GDevelop too)
-            sprite.anchor.set(0.5);  // Set origin to center
-            sprite.x = self.getX();  // Align with object's position
-            sprite.y = self.getY();
-
+            sprite.width = 600;
+            sprite.height = 800;
+            sprite.anchor.set(0.5);  // Use center as anchor point
             self.sprite = sprite;
+
+            // Position will be updated in doStepPostEvents
             self.getRenderer().getPIXIContainer().addChild(sprite);
+
 
         })
         .catch(() => {
@@ -122,7 +120,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__QR__QRS
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.onCreatedContext.GDObjectObjects1);
-gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.onCreatedContext.userFunc0x9ca078(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.onCreatedContext.userFunc0x8c1788(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -209,12 +207,19 @@ gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.doStepPostEventsContext.GDObject
 gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.doStepPostEventsContext.GDTextOnUnsupportedObjects1= [];
 
 
-gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.doStepPostEventsContext.userFunc0x8dd930 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.doStepPostEventsContext.userFunc0x8c1778 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 {
     /** @type {gdjs.CustomRuntimeObject} */
     const self = objects[0];
-    if (self.videoElement) {
+
+    // Sync sprite to object position
+    if (self.sprite) {
+        self.sprite.x = self.getCenterX();
+        self.sprite.y = self.getCenterY();
+    }
+
+    if (self.videoElement && self.barcode) {
         self.barcode
             .detect(self.videoElement)
             .then(barcodes => {
@@ -223,7 +228,7 @@ gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.doStepPostEventsContext.userFunc
                     self._setLastDetectedString(barcode.rawValue);
                     self._setJustDecodedValue(true);
                 }
-        });
+            });
     }
 }
 
@@ -236,7 +241,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__QR__QRS
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.doStepPostEventsContext.GDObjectObjects1);
-gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.doStepPostEventsContext.userFunc0x8dd930(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.doStepPostEventsContext.userFunc0x8c1778(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -424,7 +429,7 @@ gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.SetBarcodeTypeContext.GDTextOnUn
 gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.SetBarcodeTypeContext.GDTextOnUnsupportedObjects2= [];
 
 
-gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.SetBarcodeTypeContext.userFunc0x8ddb40 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.SetBarcodeTypeContext.userFunc0x8c1718 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if ("BarcodeDetector" in globalThis) {
     const barcodeType = eventsFunctionContext.getArgument("NewBarcodeType");
@@ -458,7 +463,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__QR__QRS
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.SetBarcodeTypeContext.GDObjectObjects1);
-gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.SetBarcodeTypeContext.userFunc0x8ddb40(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.SetBarcodeTypeContext.userFunc0x8c1718(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -651,7 +656,7 @@ gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.HasJustScannedContext.GDTextOnUn
 gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.HasJustScannedContext.GDTextOnUnsupportedObjects2= [];
 
 
-gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.HasJustScannedContext.userFunc0x11ce5d8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.HasJustScannedContext.userFunc0x8ea0c8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const self = objects[0];
 runtimeScene.getScene().getAsyncTasksManager().addTask(new gdjs.ResolveTask(), () => {
@@ -675,7 +680,7 @@ gdjs.copyArray(gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.HasJustScannedCon
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.HasJustScannedContext.GDObjectObjects2);
-gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.HasJustScannedContext.userFunc0x11ce5d8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__QR__QRScanner.QRScanner.prototype.HasJustScannedContext.userFunc0x8ea0c8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
