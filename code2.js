@@ -57,7 +57,7 @@ gdjs.QR_95Code_95readerCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11251388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20606284);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 0, 1);
@@ -74,7 +74,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11256300);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20611132);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -83,7 +83,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.QR_95Code_95readerCode.asyncCallback11255420 = function (runtimeScene, asyncObjectsList) {
+};gdjs.QR_95Code_95readerCode.asyncCallback20610268 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.QR_95Code_95readerCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "BOMB DEACTIVATOR", false);
 }
@@ -100,7 +100,7 @@ gdjs.QR_95Code_95readerCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.QR_95Code_95readerCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.QR_95Code_95readerCode.asyncCallback11255420(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.QR_95Code_95readerCode.asyncCallback20610268(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -114,7 +114,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11258348);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20612860);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "wrong-47985.mp3", false, 100, 1);
